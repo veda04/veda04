@@ -29,16 +29,18 @@ I'm a passionate software developer with a love for problem-solving and building
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
 ## 📈 My Projects
+- **[ATMAS](http://github.com/veda04/ATMAS.md)**
 
-- **[Bakery Dashboard](http://github.com/veda04/Dashboard)**
-
-A mock bakery administration dashboard that displays key metrics such as total daily orders, revenue, and order statuses. It features visual insights including sales performance, top-selling products, and customer preferences, aiding efficient management and decision-making.
+ATMAS is an asset management and scheduling system for internal use by the Engineering Control and Machine Performance Group (ECMPG) at the University of Huddersfield. Addresses significant challenges in scheduling processes and test plan submissions by replacing existing paper-based/SharePoint systems and email exchanges. The old systems led to delays, errors, and suboptimal resource allocation. ATMAS provides a streamlined, web-based solution for efficient asset management and test plan scheduling. 
 
   ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
   ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
 ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
 
 - **[Petstore](http://github.com/veda04/petstore)**
 
@@ -51,6 +53,17 @@ Petstore is an e-commerce platform offering a wide selection of pet products wit
 ![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
+- **[Bakery Dashboard](http://github.com/veda04/Dashboard)**
+
+A mock bakery administration dashboard that displays key metrics such as total daily orders, revenue, and order statuses. It features visual insights including sales performance, top-selling products, and customer preferences, aiding efficient management and decision-making.
+
+  ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat&logo=html5&logoColor=white)
+  ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=white)
+![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat&logo=jquery&logoColor=white)
+
 <!--
 ## 🏆 My GitHub Stats
 

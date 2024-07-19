@@ -29,7 +29,7 @@ I'm a passionate software developer with a love for problem-solving and building
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
 ## 📈 My Projects
-- **[ATMAS](http://github.com/veda04/ATMAS.md)**
+- **[ATMAS](./ATMAS.md)**
 
 ATMAS is an asset management and scheduling system for internal use by the Engineering Control and Machine Performance Group (ECMPG) at the University of Huddersfield. Addresses significant challenges in scheduling processes and test plan submissions by replacing existing paper-based/SharePoint systems and email exchanges. The old systems led to delays, errors, and suboptimal resource allocation. ATMAS provides a streamlined, web-based solution for efficient asset management and test plan scheduling. 
 

@@ -2,7 +2,7 @@
 
 ---
 
-![Profile Banner](https://salkarveda.com/banners/banner.png)
+![Profile Banner](https://salkarveda.com/banners/vs-banner.png)
 
 ## 🌟 About Me
 

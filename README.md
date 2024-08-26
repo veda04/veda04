@@ -29,6 +29,13 @@ I'm a passionate software developer with a love for problem-solving and building
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
 
 ## 📈 My Projects
+### **[MUSCLEMINDSTORIES](https://musclemindstories.com/)**
+
+A "Coming Soon" landing page for Muscle Mind Stories, an emerging fitness brand dedicated to building a vibrant community of fitness enthusiasts. The landing page features a countdown timer, which displays the remaining time until their official launch along with a brief bio of the coach.
+
+![Laravel](https://img.shields.io/badge/-Laravel-E74430?style=flat&logo=laravel&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+
 ### **[RAMJAN INTERIORS](https://www.ramjaninteriors.com/)**
 
 Ramjan Interiors showcases an extensive range of interior design services, including custom furniture design, personalized consultations, and expert space planning. The website provides an immersive experience into how spaces are transformed with a blend of style, comfort, and practicality. It features user-friendly navigation for exploring services and understanding the quality craftsmanship, design expertise, and customer satisfaction that define the brand. The site is optimized for both user experience and search engine visibility, ensuring potential clients can easily find and engage with the services offered.

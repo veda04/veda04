@@ -303,3 +303,48 @@ function renderTiptapNode($node, $unwrapParagraph = false)
             return $out;
     }
 }
+
+function format_date_display($date) {
+    if (empty($date)) {
+        return '';
+    }
+    
+    // Try to parse the date
+    $timestamp = strtotime($date);
+    
+    if ($timestamp === false) {
+        return $date; // Return original if can't parse
+    }
+    
+    // Format as "Mon YYYY" (e.g., "Mar 2025")
+    return date('M Y', $timestamp);
+}
+
+/**
+ * Calculate estimated reading time in minutes for given content.
+ * 
+ * @param string $content The text content to analyze
+ * @param int $wordsPerMinute Average reading speed (default: 200 words per minute)
+ * @return int Reading time in minutes (minimum 1 minute)
+ */
+function calculate_read_time($content, $wordsPerMinute = 200) {
+    if (empty($content)) {
+        return 1;
+    }
+    
+    // Strip HTML tags and decode entities
+    $text = strip_tags($content);
+    $text = html_entity_decode($text, ENT_QUOTES, 'UTF-8');
+    
+    // Remove extra whitespace
+    $text = trim(preg_replace('/\s+/', ' ', $text));
+    
+    // Count words
+    $wordCount = str_word_count($text);
+    
+    // Calculate read time in minutes (round up)
+    $readTime = ceil($wordCount / $wordsPerMinute);
+    
+    // Return at least 1 minute
+    return max(1, $readTime);
+}

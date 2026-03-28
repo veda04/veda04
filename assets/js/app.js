@@ -202,3 +202,49 @@ document.addEventListener('DOMContentLoaded', function() {
 
     observer.observe(sentinel);
 }());
+
+{/* Intersection Observer for fade-in animations */}
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, index) => {
+        if (entry.isIntersecting) {
+            setTimeout(() => {
+                entry.target.classList.add('visible');
+            }, index * 100); // Stagger animation
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+// Observe all fade-in elements
+document.addEventListener('DOMContentLoaded', () => {
+    const fadeElements = document.querySelectorAll('.fade-in');
+    fadeElements.forEach(el => observer.observe(el));
+});
+
+// Smooth scroll for any future anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        
+        // Only handle if it's still a hash link (not a full URL)
+        if (href && href.startsWith('#') && href.length > 1) {
+            e.preventDefault();
+            try {
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            } catch (err) {
+                console.error('Invalid selector:', href);
+            }
+        }
+    });
+});

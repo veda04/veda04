@@ -27,9 +27,9 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc><?= url('assets/images/gulger-mallik@1x1.jpg', false); ?></image:loc>
-            <image:title>Gulger Mallik - Software Engineer</image:title>
-            <image:caption>Gulger Mallik, Software Engineer and Full Stack Developer</image:caption>
+            <image:loc><?= url('assets/images/veda-salkar@1x1.jpg', false); ?></image:loc>
+            <image:title>Veda Salkar - Software Engineer</image:title>
+            <image:caption>Veda Salkar, Software Engineer and Full Stack Developer</image:caption>
         </image:image>
     </url>
     
@@ -41,8 +41,8 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
         <priority>0.9</priority>
         <image:image>
             <image:loc><?= url('assets/images/about-me-grad.jpg', false); ?></image:loc>
-            <image:title>About Gulger Mallik</image:title>
-            <image:caption>Gulger Mallik graduation photo from University of Huddersfield</image:caption>
+            <image:title>About Veda Salkar</image:title>
+            <image:caption>Veda Salkar graduation photo from University of Huddersfield</image:caption>
         </image:image>
     </url>
     
@@ -54,7 +54,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
         <priority>0.8</priority>
         <image:image>
             <image:loc><?= url('assets/images/projects.jpeg', false); ?></image:loc>
-            <image:title>Projects by Gulger Mallik</image:title>
+            <image:title>Projects by Veda Salkar</image:title>
             <image:caption>Software development projects portfolio</image:caption>
         </image:image>
     </url>
@@ -67,7 +67,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
         <priority>0.7</priority>
         <image:image>
             <image:loc><?= url('assets/images/stories.jpeg', false); ?></image:loc>
-            <image:title>Blog Stories by Gulger Mallik</image:title>
+            <image:title>Blog Stories by Veda Salkar</image:title>
             <image:caption>Software engineering journey and tech insights</image:caption>
         </image:image>
     </url>
@@ -80,8 +80,8 @@ echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
         <priority>0.6</priority>
         <image:image>
             <image:loc><?= url('assets/images/contact-me.jpg', false); ?></image:loc>
-            <image:title>Contact Gulger Mallik</image:title>
-            <image:caption>Get in touch with Gulger Mallik for software development projects</image:caption>
+            <image:title>Contact Veda Salkar</image:title>
+            <image:caption>Get in touch with Veda Salkar for software development projects</image:caption>
         </image:image>
     </url>
     

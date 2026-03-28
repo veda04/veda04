@@ -15,7 +15,7 @@ RewriteRule ^projects/([^/]+)?/?$ pages/article.php?type=project&slug=$1 [L,QSA]
 RewriteRule ^blogs/([^/]+)?/?$ pages/article.php?type=blog&slug=$1 [L,QSA]
 
 # Add specific rewrite rules for other pages
-RewriteRule ^projects?/?$ pages/project.php [L,QSA]
+RewriteRule ^projects?/?$ pages/projects.php [L,QSA]
 RewriteRule ^contact?/?$ pages/contact.php [L,QSA]
 RewriteRule ^about?/?$ pages/about.php [L,QSA]
 RewriteRule ^blogs?/?$ pages/blogs.php [L,QSA]

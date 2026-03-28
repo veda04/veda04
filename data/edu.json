@@ -1,0 +1,17 @@
+[
+    {
+        "type": "education",
+        "role": "MSc Computing",
+        "grade": "Distinction",
+        "org": "University of Huddersfield, UK",
+        "period": "Sep 2022 – Dec 2023",
+        "summary": "Specialized in advanced computing, AI, and software engineering. Dissertation on machine learning applications achieving distinction grade.",
+        "detail_title": "Advanced Professional Practice",
+        "details": [
+            "Achieved Distinction grade specializing in AI, machine learning, and software engineering",
+            "Peer Commendation Award for outstanding contributions in computing and collaborative research",
+            "Academic Representative for MSc program, liaising with faculty to improve student experience",
+            "Dissertation on machine learning applications demonstrating research excellence"
+        ]
+    }
+]

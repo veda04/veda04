@@ -50,7 +50,7 @@ define('SOCIAL_YOUTUBE', $_ENV['SOCIAL_YOUTUBE'] ?? '');
 
 // Academic and Research Profiles
 define('ACADEMIC_ORCID', $_ENV['ACADEMIC_ORCID'] ?? 'https://orcid.org/0009-0002-5110-8575');
-define('ACADEMIC_PURE', $_ENV['ACADEMIC_PURE'] ?? 'https://pure.hud.ac.uk/en/persons/gulger-mallik');
+define('ACADEMIC_PURE', $_ENV['ACADEMIC_PURE'] ?? 'https://pure.hud.ac.uk/en/persons/veda-salkar');
 
 // Constants for contact details
 define('CONTACT_PHONE', $_ENV['CONTACT_PHONE'] ?? '');

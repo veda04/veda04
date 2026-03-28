@@ -1,0 +1,57 @@
+[
+    {
+        "type": "work",
+        "role": "Research Officer",
+        "org": "University of Huddersfield, UK",
+        "period": "Mar 2025 – Present",
+        "summary": "Building a DASH software for smart workshop to visualise the data ",
+        "detail_title": "Data analytics for smart workshops",
+        "details": [
+            "Built a multi-tenant real-time analytics platform for engineering workshops, enabling custom visualisations, multi-machine monitoring, and improved self-service analytics, anomaly detection, and decision-making",
+            "Enhanced and extended ATMAS functionality based on prior placement work, ensuring continuity, improved robustness, and deeper integration with research and operational workflows across the organisation."
+        ]
+    },
+    {
+        "type": "work",
+        "role": "Director & Co-founder",
+        "org": "Cosmokode Ltd, UK",
+        "period": "Apr 2025 – Present",
+        "summary": "Leading strategic direction and technical innovation for enterprise software solutions. Building scalable web applications and AI-driven solutions for diverse clients.",
+        "detail_title": "Director & Co-founder",
+        "details": [
+            "Engineered two major SaaS products: PSM (Skills Intelligence Platform) and Fitplanex (Coaching & Client Management System)",
+            "Designed and developed intuitive, user-centric interfaces — translating product requirements into high-quality UI/UX experiences",
+            "Led end-to-end product development from product architecture and technical planning to deployment and post-launch optimization",
+            "Built responsive, scalable web applications using modern frontend frameworks and best engineering practices",
+            "Defined product workflows, user journeys, and feature roadmaps aligned with business goals"
+        ]
+    },
+    {
+        "type": "work",
+        "role": "R&D Software Engineer",
+        "org": "University of Huddersfield, UK",
+        "period": "Oct 2023 – Apr 2024",
+        "summary": "Designing automated scheduling and asset management for ATMAS. Integrating real-time sensor data and advancing 3D object recognition using machine learning.",
+        "detail_title": "ECMPG Collaboration",
+        "details": [
+            "Improved ATMAS efficiency by 25% designing automated scheduling and asset management",
+            "Enhanced operational visibility integrating real-time sensor data from InfluxDB",
+            "Automated workflows in ATMAS increasing process consistency by 30%",
+            "Advanced 3D object recognition research using machine learning"
+        ]
+    },
+    {
+        "type": "education",
+        "role": "MSc Computing (Distinction)",
+        "org": "University of Huddersfield, UK",
+        "period": "Sep 2022 – Dec 2023",
+        "summary": "Specialized in advanced computing, AI, and software engineering. Dissertation on machine learning applications achieving distinction grade.",
+        "detail_title": "Advanced Professional Practice",
+        "details": [
+            "Achieved Distinction grade specializing in computing, AI, machine learning, and software engineering",
+            "Accountability Panelist of Student Union for academic and welfare issues",
+            "Academic Representative for MSc program, liaising with faculty to improve student experience",
+            "Dissertation on asset and testplan management system enhancing asset tracking and test planning for engineering workshops at the Engineering Control and Machine Performance Group at the University of Huddersfield"
+        ]
+    }
+]

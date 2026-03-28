@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Muscle Mind Stories",
+        "logo": "assets/images/showcase/musclemindstories.png",
+        "url": "https://musclemindstories.com/",
+        "color": -1
+    },
+    {
+        "name": "Ramjan Interiors",
+        "logo": "assets/images/showcase/ramjaninteriors.png",
+        "url": "https://www.ramjaninteriors.com/",
+        "color": 1
+    },
+    {
+        "name": "University of Huddersfield",
+        "logo": "assets/images/showcase/universityofhuddersfield.svg",
+        "url": "https://www.hud.ac.uk/",
+        "color": 1
+    },
+    {
+        "name": "Fitplanex",
+        "logo": "assets/images/showcase/fitplanex.png",
+        "url": "https://www.fitplanex.com/",
+        "color": 0
+    },
+    {
+        "name": "Cosmokode Ltd",
+        "logo": "assets/images/showcase/cosmokode.png",
+        "url": "https://www.cosmokode.com/",
+        "color": 0
+    },
+    {
+        "name": "Personnel Skills Matrix",
+        "logo": "assets/images/showcase/psm.png",
+        "url": "https://www.psm.cosmokode.com/",
+        "color": 0
+    }
+]

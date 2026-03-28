@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^articles/?$ articles.php [L,QSA]

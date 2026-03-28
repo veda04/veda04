@@ -1,0 +1,34 @@
+# force index loading only
+DirectoryIndex index.php
+
+# Enable URL rewriting
+Options -MultiViews
+RewriteEngine On
+
+# API endpoints
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^api/articles/?$ api/articles.php [L,QSA]
+
+# Redirect to internal pages
+RewriteRule ^projects/([^/]+)?/?$ pages/article.php?type=project&slug=$1 [L,QSA]
+RewriteRule ^blogs/([^/]+)?/?$ pages/article.php?type=blog&slug=$1 [L,QSA]
+
+# Add specific rewrite rules for other pages
+RewriteRule ^projects?/?$ pages/project.php [L,QSA]
+RewriteRule ^contact?/?$ pages/contact.php [L,QSA]
+RewriteRule ^about?/?$ pages/about.php [L,QSA]
+RewriteRule ^blogs?/?$ pages/blogs.php [L,QSA]
+# director page
+RewriteRule ^director?/?$ pages/director.php [L,QSA]
+
+# Tools module
+RewriteRule ^tools/reachout?/?$ pages/tools/reachout.php [L,QSA]
+
+# Custom error pages
+ErrorDocument 401 /errors/401.php
+ErrorDocument 403 /errors/403.php
+ErrorDocument 404 /errors/404.php
+ErrorDocument 500 /errors/500.php
+ErrorDocument 502 /errors/502.php
+ErrorDocument 503 /errors/503.php

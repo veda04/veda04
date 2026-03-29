@@ -1,5 +1,5 @@
 <?php 
-$latestBlogs = cmsoneArticleList(null, null, 1, 1);
+$latestBlogs = cmsoneArticleList("blog", null, 1, 1);
 
 if ($latestBlogs && count($latestBlogs) > 0):
     foreach ($latestBlogs as $latestBlog): 
@@ -7,7 +7,7 @@ if ($latestBlogs && count($latestBlogs) > 0):
 <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 card-hover fade-in">
     <div class="flex items-center justify-between mb-6">
         <h1 class="text-neon text-sm font-semibold tracking-wider uppercase">Latest Article</h1>
-        <a href="blog" 
+        <a href="<?= url('blogs', false) ?>" 
            class="text-neon hover:text-neon-dark text-xs font-medium inline-flex items-center gap-1 group transition-colors">
             View All
             <svg class="w-3 h-3 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

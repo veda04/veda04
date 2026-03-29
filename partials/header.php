@@ -18,7 +18,7 @@ if (isset($SEO) && is_array($SEO)) {
 
 ?>
 <!DOCTYPE html>
-<html lang="en" class="light">
+<html lang="en" class="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -295,12 +295,8 @@ if (isset($SEO) && is_array($SEO)) {
             } else if (theme === 'light') {
                 htmlElement.classList.remove('dark');
             } else {
-                // Default to light theme (user can change to dark or system preference)
-                // If you want to respect system preference by default, uncomment the next 3 lines:
-                // if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                //     htmlElement.classList.add('dark');
-                // }
-                htmlElement.classList.remove('dark');
+                // Default to dark theme
+                htmlElement.classList.add('dark');
             }
         })();
     </script>

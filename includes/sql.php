@@ -2,6 +2,10 @@
 
 // Database connection
 function DBConnect($host, $port, $name, $user, $pass) {
+    if(!$host || !$name || !$user) {
+        return false;
+    }
+
     try {
         $conn = new PDO("mysql:host=$host;dbname=$name", $user, $pass);
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

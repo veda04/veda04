@@ -92,10 +92,8 @@ function siteMenu()
 {
     $menu = [
         '' => 'Home',
-        'about' => 'About',
-        'projects' => 'Work',
-        'blogs' => 'Stories',
-        'contact' => 'Contact',
+        'projects' => 'Projects',
+        'blogs' => 'Blog',
     ];
 
     return $menu;

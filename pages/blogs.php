@@ -28,7 +28,14 @@ if (empty($blogs)) {
 ?>
 
 <section id="blogs" class="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
-    <h1 class="text-center text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-semibold pb-4 sm:pb-6 lg:pb-8 px-4 text-gray-900 dark:text-white">Blogs</h1>
+    <div class="relative py-12 mb-12 border-b border-gray-200 dark:border-gray-700 overflow-hidden">
+        <!-- Radial gradient background with blur effect -->
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-50/30 via-purple-50/20 to-pink-50/30 dark:from-blue-900/10 dark:via-purple-900/10 dark:to-pink-900/10" 
+             style="background: radial-gradient(circle at center, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 50%, transparent 100%);"></div>
+        <div class="absolute inset-0 backdrop-blur-[2px]" style="mask-image: radial-gradient(circle at center, transparent 0%, transparent 40%, black 100%); -webkit-mask-image: radial-gradient(circle at center, transparent 0%, transparent 40%, black 100%);"></div>
+        
+        <h1 class="relative text-center text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-semibold pb-4 sm:pb-6 lg:pb-8 pt-8 px-4 text-gray-900 dark:text-white">Blogs</h1>
+    </div>
 
     <?php if ($filterTag || $filterCategory): ?>
     <div class="flex items-center justify-center gap-2 mb-4 flex-wrap">

@@ -6,7 +6,7 @@ if ($latestBlogs && count($latestBlogs) > 0):
 ?>
 <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 card-hover fade-in">
     <div class="flex items-center justify-between mb-6">
-        <h1 class="text-neon text-sm font-semibold tracking-wider uppercase">Latest from Blog</h1>
+        <h1 class="text-neon text-sm font-semibold tracking-wider uppercase">Latest Article</h1>
         <a href="blog" 
            class="text-neon hover:text-neon-dark text-xs font-medium inline-flex items-center gap-1 group transition-colors">
             View All
@@ -38,7 +38,7 @@ if ($latestBlogs && count($latestBlogs) > 0):
             </p>
             
             <div class="flex items-center justify-between">
-                <a href="blog-detail?slug=<?php echo htmlspecialchars($latestBlog['slug']); ?>" 
+                <a href="<?= url('blogs/'.$latestBlog['slug'], false) ?>" 
                    class="text-neon hover:text-neon-dark text-sm font-medium inline-flex items-center gap-2 group">
                     Read More
                     <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">

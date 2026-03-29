@@ -1,27 +1,26 @@
-<header class="py-4 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-10 text-center">
+<header class="py-4 sm:py-6 lg:py-6 px-4 sm:px-6 lg:px-10 text-center fixed top-0 left-0 right-0 z-50 backdrop-blur-lg">
     <nav class="relative">
         <div class="flex justify-between items-center">
             <div class="flex items-center gap-2 lg:gap-4">
-                <img src="<?= url('assets/images/logo/salkar_logo.png') ?>" alt="Veda Salkar"
-                    class="w-10 h-10 sm:w-12 sm:h-12 rounded-full transition-transform duration-800 hover:rotate-[360deg] hover:cursor-pointer invert dark:invert-0"
-                    onmouseout="this.style.transform='rotate(-360deg)'">
-                <a href="<?= url('') ?>" class="signature text-2xl sm:text-3xl text-black dark:text-white">Veda salkar</a>
+                <a href="<?= url('/') ?>">
+                    <!-- <img src="<?= url('assets/images/logo.png') ?>" alt="Veda Salkar"
+                        class="w-10 h-10 sm:w-12 sm:h-12 rounded-full hover:cursor-pointer"> -->
+                        <h1 class="signature text-2xl sm:text-3xl text-black dark:text-white uppercase">Veda Salkar</h1>
+                </a>
             </div>
 
-            <!-- Desktop Menu -->
-            <ul class="hidden md:flex justify-between text-black dark:text-gray-400 gap-4 lg:gap-6 xl:gap-12">
-                <?php
-                if (!str_contains($_SERVER['PHP_SELF'], '/errors/maintenance.php')) {
-                    $menu = siteMenu();
-                    foreach ($menu as $key => $value) {
-                        echo '<li><a href="' . url($key, false) . '" class="text-sm lg:text-base text-black dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 [&.active]:underline [&.active]:underline-offset-4 dark:[&.active]:text-cyan-400 transition-colors duration-300 ' . activeUrl($key) . '" >' . $value . '</a></li>';
-                    }
-                }
-                ?>
-            </ul>
-
-
             <div class="flex items-center gap-2 lg:gap-4">
+                <!-- Desktop Menu -->
+                <ul class="hidden md:flex justify-between text-black dark:text-gray-400 gap-4 lg:gap-6 xl:gap-12">
+                    <?php
+                    if (!str_contains($_SERVER['PHP_SELF'], '/errors/maintenance.php')) {
+                        $menu = siteMenu();
+                        foreach ($menu as $key => $value) {
+                            echo '<li><a href="' . url($key, false) . '" class="text-sm lg:text-base text-black dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 [&.active]:underline [&.active]:underline-offset-4 dark:[&.active]:text-neon transition-colors duration-300 ' . activeUrl($key) . '" >' . $value . '</a></li>';
+                        }
+                    }
+                    ?>
+                </ul>
                 <!-- Theme toggle -->
                 <button type="button" id="theme-toggle"
                     class="p-2 text-gray-600 dark:text-gray-400 transition-colors duration-300"
@@ -41,7 +40,7 @@
                 <!-- Desktop CTA Button -->
                 <a href="mailto:<?= strtolower(CONTACT_EMAIL) ?>" target="_blank"
                     class="hidden md:block hover:cursor-pointer bg-gray-500 text-gray-200 dark:bg-gray-900 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-800 font-bold py-2 px-3 lg:px-4 rounded-lg transition-colors duration-300 text-sm lg:text-base">
-                    Let's Talk
+                    Get in Touch
                 </a>
 
                 <!-- Mobile Hamburger Button -->
@@ -70,14 +69,14 @@
                 if (!str_contains($_SERVER['PHP_SELF'], '/errors/maintenance.php')) {
                     $menu = siteMenu();
                     foreach ($menu as $key => $value) {
-                        echo '<a href="' . url($key, false) . '" class="mobile-menu-link block px-6 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-white [&.active]:text-blue-600 dark:[&.active]:text-cyan-400 [&.active]:bg-blue-50 dark:[&.active]:bg-gray-800 transition-colors duration-200 ' . activeUrl($key) . '">' . $value . '</a>';
+                        echo '<a href="' . url($key, false) . '" class="mobile-menu-link block px-6 py-3 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 hover:text-gray-900 dark:hover:text-white [&.active]:text-blue-600 dark:[&.active]:text-neon [&.active]:bg-blue-50 dark:[&.active]:bg-gray-800 transition-colors duration-200 ' . activeUrl($key) . '">' . $value . '</a>';
                     }
                 }
                 ?>
                 <div class="px-6 py-3 border-t border-gray-200 dark:border-gray-700 mt-2">
                     <a href="mailto:<?= strtolower(CONTACT_EMAIL) ?>" target="_blank"
                         class="block w-full text-center bg-gray-500 text-gray-200 dark:bg-gray-700 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-600 font-bold py-3 px-4 rounded-lg transition-colors duration-300">
-                        Let's Talk
+                        Get in Touch
                     </a>
                 </div>
             </div>

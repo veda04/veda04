@@ -60,27 +60,38 @@ if (empty($blogs)) {
              data-url-prefix="<?= url('blogs', false) ?>">
             <?php foreach ($blogs as $blog) : ?>
                 <div class="w-full" data-aos="fade-up" data-aos-delay="100">
-                    <div class="card-bg-radial rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
-                        <div class="aspect-[40/21] overflow-hidden rounded-t-lg">
+                    <a href="<?= url('blogs/'.$blog['slug'], false) ?>" class="block h-full group">
+                        <div class="relative rounded-2xl overflow-hidden h-[400px] border border-white/10 backdrop-blur-sm hover:border-neon/30 transition-all duration-300 hover:shadow-lg hover:shadow-neon/20">
+                            <!-- Background Image -->
                             <img src="<?= htmlspecialchars($blog['featuredImage']) ?>" 
                                  alt="<?= htmlspecialchars($blog['featuredImageAlt'] ?: $blog['title']) ?>" 
-                                 class="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300">
-                        </div>
-                        <div class="p-4 sm:p-6 flex flex-col flex-grow">
-                            <h3 class="text-lg sm:text-xl font-semibold mb-2 text-gray-900 dark:text-white">
-                                <?= cutwords($blog['title'], 60) ?>
-                            </h3>
+                                 class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             
-                            <p class="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-4 flex-grow">
-                                <?= cutwords($blog['excerpt'], 120) ?>
-                            </p>
-
-                            <a class="text-right text-sm sm:text-base text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 font-medium" 
-                               href="<?= url('blogs/'.$blog['slug'], false) ?>">
-                               Read more →
-                            </a>
+                            <!-- Dark Gradient Overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/80"></div>
+                            
+                            <!-- Content -->
+                            <div class="relative h-full flex flex-col justify-between p-6">
+                                <div>
+                                    <h3 class="text-neon text-lg sm:text-xl font-bold mb-3 group-hover:text-neon-light transition-colors duration-300">
+                                        <?= htmlspecialchars($blog['title']) ?>
+                                    </h3>
+                                    
+                                    <p class="text-white/80 text-sm sm:text-base leading-tight">
+                                        <?= cutwords($blog['excerpt'], 100) ?>
+                                    </p>
+                                </div>
+                                
+                                <!-- Read More Button -->
+                                <div class="flex items-center gap-2 text-neon text-sm font-medium group-hover:gap-3 transition-all duration-300">
+                                    <span>Read More</span>
+                                    <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             <?php endforeach; ?>
         </div>

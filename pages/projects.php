@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/../includes/common.php'; // Common functions and configurations
+$HAS_NAV_BAR = true; // Flag to indicate that the navigation bar should be included
 
 // SEO configuration for the projects page
 $SEO = [

@@ -54,7 +54,7 @@
                 
                 <?php include __DIR__ . '/components/projects.php'; ?>   
 
-                <div class="fade-in">
+                <!-- <div class="fade-in">
                     <a href="<?php echo url('assets/vs-resume.pdf', false); ?>" 
                        download="Veda_Salkar_Resume.pdf"
                        class="w-full bg-neon hover:bg-neon-dark text-charcoal font-semibold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 group shadow-lg hover:shadow-neon/30">
@@ -63,7 +63,7 @@
                         </svg>
                         Download Resume
                     </a>
-                </div>
+                </div> -->
             </div>
             
         </div>

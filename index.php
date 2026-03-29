@@ -22,18 +22,6 @@
                 <?php include __DIR__ . '/components/blog.php'; ?>
                 
                 <?php include __DIR__ . '/components/social.php'; ?>
-
-                <div class="fade-in">
-                    <a href="<?php echo url('assets/vs-resume.pdf', false); ?>" 
-                       download="Veda_Salkar_Resume.pdf"
-                       class="w-full bg-neon hover:bg-neon-dark text-charcoal font-semibold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 group shadow-lg hover:shadow-neon/30">
-                        <svg class="w-5 h-5 transform group-hover:translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
-                        </svg>
-                        Download Resume
-                    </a>
-                </div>
-                
             </div>
             
             <!-- ============================================ -->
@@ -41,7 +29,6 @@
             <!-- ============================================ -->
             <div class="lg:col-span-4 relative fade-in">
                 <div class="relative">
-                
                     <div class="relative z-10 overflow-hidden">
                     </div>
                     
@@ -66,6 +53,17 @@
                 <?php include __DIR__ . '/components/experience.php'; ?>
                 
                 <?php include __DIR__ . '/components/projects.php'; ?>   
+
+                <div class="fade-in">
+                    <a href="<?php echo url('assets/vs-resume.pdf', false); ?>" 
+                       download="Veda_Salkar_Resume.pdf"
+                       class="w-full bg-neon hover:bg-neon-dark text-charcoal font-semibold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 group shadow-lg hover:shadow-neon/30">
+                        <svg class="w-5 h-5 transform group-hover:translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                        Download Resume
+                    </a>
+                </div>
             </div>
             
         </div>

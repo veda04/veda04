@@ -28,6 +28,15 @@
     },
     {
         "type": "work",
+        "role": "Software Engineer",
+        "org": "Shop & Bakery Equipment Limited, UK",
+        "period": "May 2024 – Feb 2025",
+        "summary": "",
+        "detail_title": "",
+        "details": []
+    },
+    {
+        "type": "work",
         "role": "R&D Software Engineer",
         "org": "University of Huddersfield, UK",
         "period": "Oct 2023 – Apr 2024",
@@ -41,17 +50,21 @@
         ]
     },
     {
-        "type": "education",
-        "role": "MSc Computing (Distinction)",
-        "org": "University of Huddersfield, UK",
-        "period": "Sep 2022 – Dec 2023",
-        "summary": "Specialized in advanced computing, AI, and software engineering. Dissertation on machine learning applications achieving distinction grade.",
-        "detail_title": "Advanced Professional Practice",
-        "details": [
-            "Achieved Distinction grade specializing in computing, AI, machine learning, and software engineering",
-            "Accountability Panelist of Student Union for academic and welfare issues",
-            "Academic Representative for MSc program, liaising with faculty to improve student experience",
-            "Dissertation on asset and testplan management system enhancing asset tracking and test planning for engineering workshops at the Engineering Control and Machine Performance Group at the University of Huddersfield"
-        ]
+        "type": "work",
+        "role": "Frontend Developer",
+        "org": "Trellissoft, Inc., India",
+        "period": "Apr 2022 – Aug 2022",
+        "summary": "",
+        "detail_title": "",
+        "details": []
+    },
+    {
+        "type": "work",
+        "role": "Frontend Developer",
+        "org": "Team Inertia Technologies, India",
+        "period": "Mar 2020 – Mar 2022",
+        "summary": "",
+        "detail_title": "",
+        "details": []
     }
 ]

@@ -1,23 +1,28 @@
 [
-    {
-        "title": "Java"
-    },
-    {
-        "title": "Python"
-    },
-    {
-        "title": "JavaScript"
-    },
-    {
-        "title": "SQL"
-    },
-    {
-        "title": "C#"
-    },
-    {
-        "title": "Django"
-    },
-    {
-        "title": "React"
-    }
+        { "title": "React JS"},
+        { "title": "Next JS"},
+        { "title": "JavaScript"},
+        { "title": "HTML"},
+        { "title": "CSS"},
+        { "title": "Bootstrap"},
+        { "title": "Tailwind"},
+        { "title": "PHP"},
+        { "title": "Python"},
+        { "title": "Django"},
+        { "title": "REST APIs"},
+        { "title": "Laravel"},
+        { "title": "Java"},
+        { "title": "Vue JS"},
+        { "title": "SASS"},
+        { "title": "Angular JS"},
+        { "title": "MySQL"},
+        { "title": "PostgreSQL"},
+        { "title": "Git"},
+        { "title": "CI/CD pipelines"},
+        { "title": "WCAG compliance"},
+        { "title": "Photoshop"},
+        { "title": "WordPress"},
+        { "title": "Machine Learning"},
+        { "title": "Data Analytics"},
+        { "title": "Data Visualisation"}
 ]

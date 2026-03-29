@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Cosmokode",
+        "link": "https://cosmokode.com/",
+        "img": "assets/images/organizations/cosmokode-between-transparent.png"
+    },
+    {
+        "title": "University of Huddersfield",
+        "link": "https://www.hud.ac.uk/",
+        "img": "assets/images/organizations/hud-uni.jpeg"
+    },
+    {
+        "title": "Personnel Skills Matrix",
+        "link": "https://psmworks.com/",
+        "img": "assets/images/organizations/psm.png"
+    },
+    {
+        "title": "Fitplanex",
+        "link": "https://fitplanex.com/",
+        "img": "assets/images/organizations/fitplanex.png"
+    },
+    {
+        "title": "Veevees",
+        "link": "https://veevees.ca/",
+        "img": "assets/images/organizations/veevees.png"
+    },
+    {
+        "title": "Muscle Mind Stories",
+        "link": "https://musclemindstories.com/",
+        "img": "assets/images/organizations/mms-white-transparent.png"
+    },
+    {
+        "title": "Ramjan Interiors",
+        "link": "https://www.ramjaninteriors.com/",
+        "img": "assets/images/organizations/ramjaninteriors.png"
+    }
+]

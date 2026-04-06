@@ -26,7 +26,7 @@ if (empty($projects)) {
 }
 ?>
 
-<section id="projects" class="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
+<section id="projects" class="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12">
     <div class="relative py-12 mb-12 border-b border-gray-200 dark:border-gray-700 overflow-hidden">
         <!-- Radial gradient background with blur effect -->
         <div class="absolute inset-0 bg-gradient-to-r from-blue-50/30 via-purple-50/20 to-pink-50/30 dark:from-blue-900/10 dark:via-purple-900/10 dark:to-pink-900/10" 
@@ -56,9 +56,8 @@ if (empty($projects)) {
         </a>
     </div>
     <?php endif; ?>
-
         <div id="article-grid"
-             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8"
+             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
              data-category="project"
              data-tag="<?= htmlspecialchars($filterTag ?? '') ?>"
              data-page="1"
@@ -66,44 +65,43 @@ if (empty($projects)) {
              data-url-prefix="<?= url('projects', false) ?>">
             <?php foreach ($projects as $project) : ?>
                 <div class="w-full" data-aos="fade-up" data-aos-delay="100">
-                    <!-- Device Frame -->
-                    <div class="bg-gray-800 dark:bg-gray-900 rounded-2xl shadow-2xl overflow-hidden border border-gray-700 dark:border-gray-600 hover:shadow-neon/20 transition-all duration-300 min-h-[400px] flex flex-col">
-                        <!-- Browser Tab Bar -->
-                        <div class="bg-gray-700 dark:bg-gray-800 px-4 py-2 flex items-center gap-2 border-b border-gray-600 dark:border-gray-700">
-                            <div class="flex gap-1.5">
-                                <div class="w-3 h-3 rounded-full bg-red-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                            </div>
-                            <div class="flex-1 flex items-center gap-2 ml-2">
-                                <div class="bg-gray-600 dark:bg-gray-700 rounded-t-lg px-3 py-1 text-xs text-gray-300 max-w-[120px] truncate">
-                                    <?= cutwords($project['title'], 20) ?>
-                                </div>
-                            </div>
+                    <!-- Mobile Device Frame -->
+                    <div class="bg-gray-900 dark:bg-black rounded-[2.5rem] shadow-2xl overflow-hidden border-[8px] border-gray-800 dark:border-gray-950 hover:shadow-olive/20 dark:hover:shadow-neon/20 transition-all duration-300 min-h-[500px] flex flex-col relative">
+                        <!-- Device Notch/Camera -->
+                        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-gray-800 dark:bg-gray-950 rounded-b-2xl z-10 flex items-center justify-center">
+                            <div class="w-12 h-1.5 bg-gray-700 dark:bg-gray-900 rounded-full"></div>
                         </div>
                         
-                        <!-- Screen Content - Horizontal Layout -->
-                        <div class="bg-white dark:bg-gray-900 flex flex-col sm:flex-row h-full flex-1">
-                            <!-- Image Side -->
-                            <div class="sm:w-4/5 overflow-hidden">
+                        <!-- Tab Bar -->
+                        <div class="bg-gray-800 dark:bg-gray-900 px-4 pt-8 pb-2 flex items-center gap-2 border-b border-gray-700 dark:border-gray-800">
+                            <!-- <div class="bg-gray-700 dark:bg-gray-800 rounded-t-lg px-4 py-2 text-xs text-gray-300 dark:text-gray-400 max-w-[140px] truncate flex items-center gap-2">
+                                <div class="w-2 h-2 bg-olive dark:bg-neon rounded-full"></div>
+                                <?= cutwords($project['title'], 20) ?>
+                            </div> -->
+                        </div>
+                        
+                        <!-- Screen Content - Vertical Layout -->
+                        <div class="bg-white dark:bg-gray-900 flex flex-col h-full flex-1 overflow-hidden">
+                            <!-- Image Top -->
+                            <div class="w-full h-48 sm:h-56 overflow-hidden">
                                 <img src="<?= htmlspecialchars($project['featuredImage']) ?>" 
                                      alt="<?= htmlspecialchars($project['featuredImageAlt'] ?: $project['title']) ?>" 
                                      class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                             </div>
                             
-                            <!-- Content Side -->
-                            <div class="sm:w-3/5 p-4 sm:p-6 flex flex-col justify-between">
+                            <!-- Content Bottom -->
+                            <div class="p-4 sm:p-6 flex flex-col justify-between flex-1">
                                 <div>
                                     <h3 class="text-lg sm:text-xl font-semibold mb-3 text-gray-900 dark:text-white">
                                         <?= cutwords($project['title'], 60) ?>
                                     </h3>
                                     
                                     <p class="text-sm sm:text-base text-gray-700 dark:text-gray-300 mb-4">
-                                        <?= cutwords($project['excerpt'], 120) ?>
+                                        <?= cutwords($project['excerpt'], 100) ?>
                                     </p>
                                 </div>
                                 
-                                <a class="inline-flex items-center gap-2 text-sm sm:text-base text-neon dark:text-neon hover:text-neon dark:hover:text-neon transition-colors duration-300 font-medium group" 
+                                <a class="inline-flex items-center gap-2 text-sm sm:text-base text-olive dark:text-neon hover:text-olive-dark dark:hover:text-neon transition-colors duration-300 font-medium group" 
                                    href="<?= url('projects/'.$project['slug'], false) ?>">
                                    <span>Read more</span>
                                    <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -112,16 +110,21 @@ if (empty($projects)) {
                                 </a>
                             </div>
                         </div>
+                        
+                        <!-- Device Home Indicator -->
+                        <div class="bg-white dark:bg-gray-900 pb-2 flex justify-center">
+                            <div class="w-32 h-1 bg-gray-300 dark:bg-gray-700 rounded-full"></div>
+                        </div>
                     </div>
                 </div>
             <?php endforeach; ?>
         </div>
-
     <?php if ($hasMore): ?>
     <div id="scroll-sentinel" class="py-8 flex justify-center">
         <div id="scroll-loader" class="hidden w-8 h-8 rounded-full border-4 border-gray-200 dark:border-gray-700 border-t-blue-500 animate-spin"></div>
     </div>
     <?php endif; ?>
+    <?php include __DIR__ . '/../partials/copyrights.php'; ?>
 </section>
 
 <?php

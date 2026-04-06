@@ -1,5 +1,7 @@
 
-<?php include __DIR__ . '/partials/header.php'; ?>
+<?php
+require_once __DIR__ . '/partials/header.php';
+?>
 
 <div class="portfolio-body min-h-screen text-white font-body antialiased" style="background: url('assets/images/profile-image.png') #000 center center / contain no-repeat fixed;">
     
@@ -57,7 +59,7 @@
                 <!-- <div class="fade-in">
                     <a href="<?php echo url('assets/vs-resume.pdf', false); ?>" 
                        download="Veda_Salkar_Resume.pdf"
-                       class="w-full bg-neon hover:bg-neon-dark text-charcoal font-semibold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 group shadow-lg hover:shadow-neon/30">
+                       class="w-full bg-olive dark:bg-neon hover:bg-olive-dark dark:hover:bg-neon-dark text-white dark:text-charcoal font-semibold py-4 px-6 rounded-xl transition-all duration-300 flex items-center justify-center gap-3 group shadow-lg hover:shadow-olive/30 dark:hover:shadow-neon/30">
                         <svg class="w-5 h-5 transform group-hover:translate-y-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
                         </svg>

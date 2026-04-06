@@ -121,7 +121,7 @@ function cutWords(str, max) {
         link.className = 'block h-full group';
 
         var cardContainer = document.createElement('div');
-        cardContainer.className = 'relative rounded-2xl overflow-hidden h-[400px] border border-white/10 backdrop-blur-sm hover:border-neon/30 transition-all duration-300 hover:shadow-lg hover:shadow-neon/20';
+        cardContainer.className = 'relative rounded-2xl overflow-hidden h-[400px] border border-white/10 backdrop-blur-sm hover:border-olive/30 dark:hover:border-neon/30 transition-all duration-300 hover:shadow-lg hover:shadow-olive/20 dark:hover:shadow-neon/20';
 
         // Background Image
         var img = document.createElement('img');
@@ -141,7 +141,7 @@ function cutWords(str, max) {
         var textContent = document.createElement('div');
 
         var h3 = document.createElement('h3');
-        h3.className = 'text-neon text-lg sm:text-xl font-bold mb-3 group-hover:text-neon-light transition-colors duration-300';
+        h3.className = 'text-olive dark:text-neon text-lg sm:text-xl font-bold mb-3 group-hover:text-olive-dark dark:group-hover:text-neon-light transition-colors duration-300';
         h3.textContent = article.title;
 
         var p = document.createElement('p');
@@ -153,7 +153,7 @@ function cutWords(str, max) {
 
         // Read More Button
         var readMore = document.createElement('div');
-        readMore.className = 'flex items-center gap-2 text-neon text-sm font-medium group-hover:gap-3 transition-all duration-300';
+        readMore.className = 'flex items-center gap-2 text-olive dark:text-neon text-sm font-medium group-hover:gap-3 transition-all duration-300';
 
         var readMoreSpan = document.createElement('span');
         readMoreSpan.textContent = 'Read More';

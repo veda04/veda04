@@ -27,7 +27,7 @@ if (empty($blogs)) {
 }
 ?>
 
-<section id="blogs" class="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-10">
+<section id="blogs" class="container mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-12">
     <div class="relative py-12 mb-12 border-b border-gray-200 dark:border-gray-700 overflow-hidden">
         <!-- Radial gradient background with blur effect -->
         <div class="absolute inset-0 bg-gradient-to-r from-blue-50/30 via-purple-50/20 to-pink-50/30 dark:from-blue-900/10 dark:via-purple-900/10 dark:to-pink-900/10" 
@@ -68,7 +68,7 @@ if (empty($blogs)) {
             <?php foreach ($blogs as $blog) : ?>
                 <div class="w-full" data-aos="fade-up" data-aos-delay="100">
                     <a href="<?= url('blogs/'.$blog['slug'], false) ?>" class="block h-full group">
-                        <div class="relative rounded-2xl overflow-hidden h-[400px] border border-white/10 backdrop-blur-sm hover:border-neon/30 transition-all duration-300 hover:shadow-lg hover:shadow-neon/20">
+                        <div class="relative rounded-2xl overflow-hidden h-[400px] border border-white/10 backdrop-blur-sm hover:border-olive/30 dark:hover:border-neon/30 transition-all duration-300 hover:shadow-lg hover:shadow-olive/20 dark:hover:shadow-neon/20">
                             <!-- Background Image -->
                             <img src="<?= htmlspecialchars($blog['featuredImage']) ?>" 
                                  alt="<?= htmlspecialchars($blog['featuredImageAlt'] ?: $blog['title']) ?>" 
@@ -80,11 +80,11 @@ if (empty($blogs)) {
                             <!-- Content -->
                             <div class="relative h-full flex flex-col justify-between p-6">
                                 <div>
-                                    <h3 class="text-neon text-lg sm:text-xl font-bold mb-3 group-hover:text-neon-light transition-colors duration-300">
+                                    <h3 class="text-neon text-lg sm:text-xl font-bold mb-3 group-hover:text-olive-dark dark:group-hover:text-neon-light transition-colors duration-300">
                                         <?= htmlspecialchars($blog['title']) ?>
                                     </h3>
                                     
-                                    <p class="text-white/80 text-sm sm:text-base leading-tight">
+                                    <p class="text-white text-sm sm:text-base leading-tight">
                                         <?= cutwords($blog['excerpt'], 100) ?>
                                     </p>
                                 </div>
@@ -108,6 +108,7 @@ if (empty($blogs)) {
         <div id="scroll-loader" class="hidden w-8 h-8 rounded-full border-4 border-gray-200 dark:border-gray-700 border-t-blue-500 animate-spin"></div>
     </div>
     <?php endif; ?>
+    <?php include __DIR__ . '/../partials/copyrights.php'; ?>
 </section>
 
 <?php

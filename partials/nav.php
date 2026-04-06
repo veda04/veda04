@@ -21,8 +21,14 @@
                     }
                     ?>
                 </ul>
-                <!-- Theme toggle -->
-                 <?php /*
+                
+                <!-- Desktop CTA Button -->
+                <a href="mailto:<?= strtolower(CONTACT_EMAIL) ?>" target="_blank"
+                    class="hidden md:block hover:cursor-pointer bg-gray-500 text-gray-200 dark:bg-gray-900 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-800 font-bold py-2 px-3 lg:px-4 rounded-lg transition-colors duration-300 text-sm lg:text-base">
+                    Get in Touch
+                </a>
+
+                <!-- Theme toggle --> 
                 <button type="button" id="theme-toggle"
                     class="p-2 text-gray-600 dark:text-gray-400 transition-colors duration-300"
                     aria-label="Toggle theme">
@@ -37,13 +43,6 @@
                         <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
                     </svg>
                 </button>
-                */ ?>
-
-                <!-- Desktop CTA Button -->
-                <a href="mailto:<?= strtolower(CONTACT_EMAIL) ?>" target="_blank"
-                    class="hidden md:block hover:cursor-pointer bg-gray-500 text-gray-200 dark:bg-gray-900 dark:text-white hover:bg-gray-600 dark:hover:bg-gray-800 font-bold py-2 px-3 lg:px-4 rounded-lg transition-colors duration-300 text-sm lg:text-base">
-                    Get in Touch
-                </a>
 
                 <!-- Mobile Hamburger Button -->
                 <button id="mobile-menu-button"

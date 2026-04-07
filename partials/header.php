@@ -44,11 +44,18 @@ if (isset($SEO) && is_array($SEO)) {
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://res.cloudinary.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://code.jquery.com">
     <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://code.jquery.com">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+        rel="stylesheet"
+        media="print" onload="this.media='all'">
+    <noscript><link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"></noscript>
 
     <!-- Favicon and App Icons -->
     <link rel="icon" type="image/x-icon" href="<?= url('favicon.ico', false) ?>" />
@@ -276,12 +283,18 @@ if (isset($SEO) && is_array($SEO)) {
         </script>
 
     <!-- External Resources -->
+    <link rel="preload" href="<?= url('assets/css/style.css') ?>" as="style">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"
+        media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>
     <link rel="stylesheet" href="<?= url('assets/css/style.css') ?>">
+    <link rel="preload" href="<?= url('assets/js/aos/aos.css') ?>" as="style">
     <link rel="stylesheet" href="<?= url('assets/js/aos/aos.css') ?>">
-    <script src="<?= url('assets/js/aos/aos.js') ?>"></script>
+    <script src="<?= url('assets/js/aos/aos.js') ?>" defer></script>
 
     <!-- Theme initialization script - runs before page renders to prevent flash -->
     <script>

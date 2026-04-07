@@ -72,6 +72,10 @@ if (empty($blogs)) {
                             <!-- Background Image -->
                             <img src="<?= htmlspecialchars($blog['featuredImage']) ?>" 
                                  alt="<?= htmlspecialchars($blog['featuredImageAlt'] ?: $blog['title']) ?>" 
+                                 loading="lazy"
+                                 decoding="async"
+                                 width="400"
+                                 height="400"
                                  class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             
                             <!-- Dark Gradient Overlay -->

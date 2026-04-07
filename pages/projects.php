@@ -86,6 +86,10 @@ if (empty($projects)) {
                             <div class="w-full h-48 sm:h-56 overflow-hidden">
                                 <img src="<?= htmlspecialchars($project['featuredImage']) ?>" 
                                      alt="<?= htmlspecialchars($project['featuredImageAlt'] ?: $project['title']) ?>" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     width="400"
+                                     height="224"
                                      class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
                             </div>
                             

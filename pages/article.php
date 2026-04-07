@@ -82,7 +82,13 @@ require_once __DIR__ . '/../partials/header.php';
             <div class="mb-8 fade-in">
                 <div class="aspect-video rounded-2xl overflow-hidden shadow-2xl">
                     <img src="<?php echo htmlspecialchars($article['featuredImage']); ?>"
-                        alt="<?php echo htmlspecialchars($article['title']); ?>" class="w-full h-full object-cover">
+                        alt="<?php echo htmlspecialchars($article['title']); ?>" 
+                        loading="eager"
+                        decoding="async"
+                        fetchpriority="high"
+                        width="1200"
+                        height="675"
+                        class="w-full h-full object-cover">
                 </div>
             </div>
 
@@ -93,6 +99,10 @@ require_once __DIR__ . '/../partials/header.php';
                     <div class="flex items-center gap-3">
                         <img src="<?php echo url('assets/images/profile-image.png', false); ?>"
                             alt="Veda Salkar"
+                            loading="eager"
+                            decoding="async"
+                            width="48"
+                            height="48"
                             class="w-12 h-12 rounded-full border-2 border-olive/30 dark:border-neon/30 object-contain bg-white dark:bg-black p-1">
                         <div>
                             <div class="text-gray-900 dark:text-white font-semibold text-sm">Veda Salkar</div>
@@ -186,7 +196,12 @@ require_once __DIR__ . '/../partials/header.php';
                                 <!-- Image -->
                                 <div class="image-overlay aspect-video rounded-lg overflow-hidden mb-4">
                                     <img src="<?php echo htmlspecialchars($related['featuredImage']); ?>"
-                                        alt="<?php echo htmlspecialchars($related['title']); ?>" class="w-full h-full object-cover">
+                                        alt="<?php echo htmlspecialchars($related['title']); ?>" 
+                                        loading="lazy"
+                                        decoding="async"
+                                        width="600"
+                                        height="338"
+                                        class="w-full h-full object-cover">
                                 </div>
 
                                 <!-- Content -->

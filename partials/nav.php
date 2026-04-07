@@ -11,7 +11,7 @@
 
             <div class="flex items-center gap-2 lg:gap-4">
                 <!-- Desktop Menu -->
-                <ul class="hidden md:flex justify-between text-black dark:text-gray-400 gap-4 lg:gap-6 xl:gap-12">
+                <ul class="hidden md:flex justify-between mr-5 text-black dark:text-gray-400 gap-4 lg:gap-6 xl:gap-12">
                     <?php
                     if (!str_contains($_SERVER['PHP_SELF'], '/errors/maintenance.php')) {
                         $menu = siteMenu();

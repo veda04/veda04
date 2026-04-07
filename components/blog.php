@@ -20,6 +20,10 @@ if ($latestBlogs && count($latestBlogs) > 0):
         <div class="aspect-video bg-white/5 rounded-lg overflow-hidden border border-white/5">
             <img src="<?php echo htmlspecialchars($latestBlog['featuredImage']); ?>" 
                  alt="<?php echo htmlspecialchars($latestBlog['title']); ?>" 
+                 loading="lazy"
+                 decoding="async"
+                 width="400"
+                 height="225"
                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-500">
         </div>
         

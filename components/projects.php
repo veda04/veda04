@@ -1,6 +1,10 @@
 <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 card-hover fade-in relative overflow-hidden">
     <img src="https://illustrations.popsy.co/green/web-design.svg" 
          alt="Projects illustration" 
+         loading="lazy"
+         decoding="async"
+         width="200"
+         height="200"
          class="absolute right-0 bottom-0 w-1/3 opacity-90 z-0" 
          style="filter: brightness(0.5) saturate(18) contrast(0.2);">
     <div class="flex items-center justify-between mb-6 relative z-10">

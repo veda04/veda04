@@ -21,10 +21,18 @@
     })();
 </script>
 <script>window.APP_URL = '<?= rtrim(APP_URL, '/') ?>';</script>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="<?= url('assets/js/app.js'); ?>"></script>
-<script>
-    AOS.init();
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+<script src="<?= url('assets/js/app.js'); ?>" defer></script>
+<script defer>
+    document.addEventListener('DOMContentLoaded', function() {
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 50
+            });
+        }
+    });
 </script>
 <script>
     // Theme toggle functionality

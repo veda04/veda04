@@ -68,33 +68,30 @@ if (empty($blogs)) {
             <?php foreach ($blogs as $blog) : ?>
                 <div class="w-full" data-aos="fade-up" data-aos-delay="100">
                     <a href="<?= url('blogs/'.$blog['slug'], false) ?>" class="block h-full group">
-                        <div class="relative rounded-2xl overflow-hidden h-[400px] border border-white/10 backdrop-blur-sm hover:border-olive/30 dark:hover:border-neon/30 transition-all duration-300 hover:shadow-lg hover:shadow-olive/20 dark:hover:shadow-neon/20">
-                            <!-- Background Image -->
-                            <img src="<?= htmlspecialchars($blog['featuredImage']) ?>" 
-                                 alt="<?= htmlspecialchars($blog['featuredImageAlt'] ?: $blog['title']) ?>" 
-                                 loading="lazy"
-                                 decoding="async"
-                                 width="400"
-                                 height="400"
-                                 class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="rounded-2xl overflow-hidden border border-gray-200/50 dark:border-gray-700/50 hover:border-olive/40 dark:hover:border-neon/40 transition-all duration-300 hover:shadow-xl hover:shadow-olive/20 dark:hover:shadow-neon/20 bg-white/80 dark:bg-gray-800/80 backdrop-blur-md flex flex-col h-full">
+                            <!-- Image Section -->
+                            <div class="relative overflow-hidden h-48">
+                                <img src="<?= htmlspecialchars($blog['featuredImage']) ?>" 
+                                     alt="<?= htmlspecialchars($blog['featuredImageAlt'] ?: $blog['title']) ?>" 
+                                     loading="lazy"
+                                     decoding="async"
+                                     width="400"
+                                     height="192"
+                                     class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            </div>
                             
-                            <!-- Dark Gradient Overlay -->
-                            <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/80"></div>
-                            
-                            <!-- Content -->
-                            <div class="relative h-full flex flex-col justify-between p-6">
-                                <div>
-                                    <h3 class="text-neon text-lg sm:text-xl font-bold mb-3 group-hover:text-olive-dark dark:group-hover:text-neon-light transition-colors duration-300">
-                                        <?= htmlspecialchars($blog['title']) ?>
-                                    </h3>
-                                    
-                                    <p class="text-white text-sm sm:text-base leading-tight">
-                                        <?= cutwords($blog['excerpt'], 100) ?>
-                                    </p>
-                                </div>
+                            <!-- Content Section with Glass Effect -->
+                            <div class="flex flex-col flex-1 p-6 bg-gradient-to-b from-white/90 to-white/95 dark:from-gray-800/90 dark:to-gray-900/95 backdrop-blur-sm">
+                                <h3 class="text-gray-900 dark:text-white text-lg font-bold mb-4 group-hover:text-olive dark:group-hover:text-neon transition-colors duration-300 line-clamp-3 leading-snug">
+                                    <?= htmlspecialchars($blog['title']) ?>
+                                </h3>
+                                
+                                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-5 flex-1 line-clamp-3">
+                                    <?= cutwords($blog['excerpt'], 100) ?>
+                                </p>
                                 
                                 <!-- Read More Button -->
-                                <div class="flex items-center gap-2 text-neon text-sm font-medium group-hover:gap-3 transition-all duration-300">
+                                <div class="flex items-center gap-2 text-olive dark:text-neon text-sm font-medium group-hover:gap-3 transition-all duration-300 mt-auto pt-3 border-t border-gray-200/50 dark:border-gray-700/50">
                                     <span>Read More</span>
                                     <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

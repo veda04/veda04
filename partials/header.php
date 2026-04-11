@@ -5,7 +5,7 @@ $defaultSeo = [
     'title' => 'Veda Salkar aka Miss. Salkar',
     'description' => 'Veda Salkar is a Software Engineer and a Fullstack developer.',
     'keywords' => 'veda salkar,  veda, salkar, software engineer, fullstack developer, web developer, frontend developer',
-    'image' => url('assets/images/article-footer-light.png', false),
+    'image' => url('assets/images/og-image.png', false),
     'url' => url('', false),
 ];
 
@@ -318,12 +318,12 @@ if (isset($SEO) && is_array($SEO)) {
 <body class="bg-gray-100 dark:bg-black-base dark:text-gray-200">
 
     <!-- Global Page Loader -->
-    <!-- <div id="page-loader" role="status" aria-label="Loading">
-        <img src="<?= url('assets/images/logo/salkar_logo@0.25x.png', false) ?>"
+    <div id="page-loader" role="status" aria-label="Loading">
+        <img src="<?= url('assets/images/logo@200x200.png', false) ?>"
              alt="Loading..."
              class="w-16 h-16 logo-spin invert dark:invert-0">
         <span class="text-xs text-gray-400 dark:text-gray-500 tracking-widest uppercase">Loading&hellip;</span>
-    </div> -->
+    </div>
 
     <div id="outer-container" class="relative z-10 mx-auto">
 

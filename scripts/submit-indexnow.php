@@ -10,9 +10,9 @@ if (PHP_SAPI !== 'cli') {
     exit('This script must be run from the command line.' . PHP_EOL);
 }
 
-const INDEXNOW_HOST       = 'www.mrmallik.com';
+const INDEXNOW_HOST       = 'www.salkarveda.com';
 const INDEXNOW_KEY        = '6a8bda1825d34cd0817b0db0c33d9370';
-const INDEXNOW_KEY_LOCATION = 'https://www.mrmallik.com/6a8bda1825d34cd0817b0db0c33d9370.txt';
+const INDEXNOW_KEY_LOCATION = 'https://www.salkarveda.com/6a8bda1825d34cd0817b0db0c33d9370.txt';
 const INDEXNOW_API_URL    = 'https://api.indexnow.org/IndexNow';
 
 // ----- Parse sitemap.xml -----

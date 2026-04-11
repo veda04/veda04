@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AI-Friendly Sitemap for https://www.salkarveda.com -->
+<!-- Generated: 2026-04-11 13:09:38 -->
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:ai="https://www.salkarveda.com/ns/ai-sitemap/1.0">
+
+    <!--
+        Site overview — for AI agents that read the XML as a whole
+        Name:        Veda Salkar Portfolio
+        Author:      Veda Salkar
+        Language:    en
+        Description: Personal portfolio of Veda Salkar, a Software Engineer and Full Stack Developer.
+                     Contains project case studies, blog stories, and professional background.
+    -->
+
+    <url>
+        <loc>https://www.salkarveda.com/</loc>
+        <lastmod>2026-04-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <ai:content-type>homepage</ai:content-type>
+        <ai:title>Veda Salkar – Software Engineer &amp; Full Stack Developer</ai:title>
+        <ai:description>The personal portfolio homepage of Veda Salkar, a Software Engineer and Full Stack Developer. Showcases professional projects, blog stories, skills, and contact information.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>recruiters, hiring managers, developers, collaborators</ai:audience>
+        <ai:topics>
+            <ai:topic>software engineering</ai:topic>
+            <ai:topic>full stack development</ai:topic>
+            <ai:topic>portfolio</ai:topic>
+            <ai:topic>PHP</ai:topic>
+            <ai:topic>JavaScript</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/about</loc>
+        <lastmod>2026-04-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <ai:content-type>webpage</ai:content-type>
+        <ai:title>About Veda Salkar – Background &amp; Experience</ai:title>
+        <ai:description>Detailed professional and educational background of Veda Salkar. Covers academic history at the University of Huddersfield, career journey, technical skills, and personal ethos.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>recruiters, hiring managers, researchers</ai:audience>
+        <ai:topics>
+            <ai:topic>biography</ai:topic>
+            <ai:topic>software engineering</ai:topic>
+            <ai:topic>education</ai:topic>
+            <ai:topic>career</ai:topic>
+            <ai:topic>University of Huddersfield</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/projects</loc>
+        <lastmod>2026-04-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <ai:content-type>portfolio-index</ai:content-type>
+        <ai:title>Projects by Veda Salkar – Software Development Portfolio</ai:title>
+        <ai:description>Index of all software development projects by Veda Salkar. Includes web applications, automation tools, AI integrations, and enterprise systems.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>recruiters, developers, clients, researchers</ai:audience>
+        <ai:topics>
+            <ai:topic>projects</ai:topic>
+            <ai:topic>software development</ai:topic>
+            <ai:topic>portfolio</ai:topic>
+            <ai:topic>web applications</ai:topic>
+            <ai:topic>case studies</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/blogs</loc>
+        <lastmod>2026-04-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+        <ai:content-type>blog-index</ai:content-type>
+        <ai:title>Blog &amp; Stories by Veda Salkar – Tech Insights</ai:title>
+        <ai:description>Index of blog posts and stories written by Veda Salkar covering software engineering practices, career insights, technology trends, and personal professional experiences.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>developers, students, professionals, tech enthusiasts</ai:audience>
+        <ai:topics>
+            <ai:topic>blog</ai:topic>
+            <ai:topic>tech writing</ai:topic>
+            <ai:topic>software engineering</ai:topic>
+            <ai:topic>career development</ai:topic>
+            <ai:topic>technology</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/contact</loc>
+        <lastmod>2026-04-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <ai:content-type>contact-page</ai:content-type>
+        <ai:title>Contact Veda Salkar – Get in Touch</ai:title>
+        <ai:description>Contact page for Veda Salkar. Use this page to reach out for project collaborations, job opportunities, or general enquiries.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>recruiters, clients, collaborators</ai:audience>
+        <ai:topics>
+            <ai:topic>contact</ai:topic>
+            <ai:topic>hire</ai:topic>
+            <ai:topic>collaboration</ai:topic>
+            <ai:topic>enquiry</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/projects/animated-porfolio</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <ai:content-type>project-case-study</ai:content-type>
+        <ai:title>Animated Porfolio</ai:title>
+        <ai:description>Discover how I leveraged React, Tailwind CSS, Framer Motion, and GSAP to build a high-performance, interactive personal portfolio website.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>recruiters, developers, clients, researchers</ai:audience>
+        <ai:topics>
+            <ai:topic>Framer Motion</ai:topic>
+            <ai:topic>GSAP</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/projects/automated-test-management-and-asset-scheduling-atmas</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <ai:content-type>project-case-study</ai:content-type>
+        <ai:title>Automated Test Management and Asset Scheduling (ATMAS)</ai:title>
+        <ai:description>Discover how the ATMAS project at the University of Huddersfield streamlined asset management and test scheduling through custom MVC software development.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>recruiters, developers, clients, researchers</ai:audience>
+        <ai:topics>
+            <ai:topic>asset management</ai:topic>
+            <ai:topic>php</ai:topic>
+            <ai:topic>software developement</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/projects/petstore</loc>
+        <lastmod>2026-03-29</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <ai:content-type>project-case-study</ai:content-type>
+        <ai:title>Petstore</ai:title>
+        <ai:description>A reflection on building my first full-stack e-commerce project using PHP and MySQL. This post explores the challenges of developing Petstore, from user authentication and dynamic product browsing to admin panel management and SEO, highlighting key lessons in backend development, persistence, and real-world problem solving.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>recruiters, developers, clients, researchers</ai:audience>
+        <ai:topics>
+            <ai:topic>e-commerce</ai:topic>
+            <ai:topic>CMS</ai:topic>
+            <ai:topic>Web development</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/blogs/my-placement-journey-in-precision-engineering-shaping-skills-beyond-code</loc>
+        <lastmod>2026-04-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <ai:content-type>blog-article</ai:content-type>
+        <ai:title>My Placement Journey in Precision Engineering: Shaping Skills Beyond Code</ai:title>
+        <ai:description>Discover how my placement at the University of Huddersfield&apos;s Centre for Precision Technology shaped my career and the vital role of software in engineering.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>developers, students, professionals, tech enthusiasts</ai:audience>
+        <ai:topics>
+            <ai:topic>precision engineering software</ai:topic>
+            <ai:topic>software engineering placement UK</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/blogs/the-importance-of-accountability-in-student-governance-a-panelists-perspective</loc>
+        <lastmod>2026-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <ai:content-type>blog-article</ai:content-type>
+        <ai:title>The Importance of Accountability in Student Governance: A Panelist’s Perspective</ai:title>
+        <ai:description>Reflecting on my time as an Accountability Panelist for 2023/2024, I explore the vital role of transparency and student-led oversight in university governance.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>developers, students, professionals, tech enthusiasts</ai:audience>
+        <ai:topics>
+            <ai:topic>student leadership</ai:topic>
+            <ai:topic>leadership skills</ai:topic>
+            <ai:topic>accountability</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/blogs/making-a-difference-as-an-academic-representative</loc>
+        <lastmod>2026-04-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <ai:content-type>blog-article</ai:content-type>
+        <ai:title>Making a Difference as an Academic Representative</ai:title>
+        <ai:description>Reflecting on my experience as an MSc in Computing Academic Representative (2022-2024), I explore how student advocacy drives positive academic change.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>developers, students, professionals, tech enthusiasts</ai:audience>
+        <ai:topics>
+            <ai:topic>academic representative</ai:topic>
+            <ai:topic>student leadership</ai:topic>
+            <ai:topic>university experience</ai:topic>
+            <ai:topic>student voice</ai:topic>
+            <ai:topic>student support</ai:topic>
+        </ai:topics>
+    </url>
+    <url>
+        <loc>https://www.salkarveda.com/blogs/reflections-on-my-research-paper-brain-tumor-detection-using-machine-learning</loc>
+        <lastmod>2026-04-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <ai:content-type>blog-article</ai:content-type>
+        <ai:title>Reflections on My Research Paper: Brain Tumor Detection Using Machine Learning</ai:title>
+        <ai:description>A reflection on my first published research paper on brain tumor detection using machine learning. This post explores the technical approach, challenges faced during development, and key lessons in teamwork, leadership, and patience gained throughout the journey.</ai:description>
+        <ai:author>Veda Salkar</ai:author>
+        <ai:language>en</ai:language>
+        <ai:audience>developers, students, professionals, tech enthusiasts</ai:audience>
+        <ai:topics>
+            <ai:topic>machine learning</ai:topic>
+            <ai:topic>Image Processing</ai:topic>
+            <ai:topic>Brain Tumor Detection</ai:topic>
+            <ai:topic>Data Mining</ai:topic>
+            <ai:topic>Naïve Bayes</ai:topic>
+            <ai:topic>Healthcare Technology</ai:topic>
+            <ai:topic>Naive Bayes</ai:topic>
+            <ai:topic>J48 Algorithm</ai:topic>
+            <ai:topic>Research Paper</ai:topic>
+            <ai:topic>Teamwork &amp; Leadership</ai:topic>
+        </ai:topics>
+    </url>
+</urlset>

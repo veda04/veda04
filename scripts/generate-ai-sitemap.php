@@ -76,9 +76,9 @@ function aiUrl(
 
 // ----- Build XML -----
 
-$author   = 'Gulger Mallik';
+$author   = 'Veda Salkar';
 $today    = date('Y-m-d');
-$siteRoot = 'https://www.mrmallik.com';
+$siteRoot = 'https://www.salkarveda.com';
 
 ob_start();
 
@@ -88,14 +88,14 @@ echo '<!-- Generated: ' . date('Y-m-d H:i:s') . ' -->' . "\n";
 ?>
 <urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:ai="https://www.mrmallik.com/ns/ai-sitemap/1.0">
+    xmlns:ai="https://www.salkarveda.com/ns/ai-sitemap/1.0">
 
     <!--
         Site overview — for AI agents that read the XML as a whole
-        Name:        Gulger Mallik Portfolio
-        Author:      Gulger Mallik
+        Name:        Veda Salkar Portfolio
+        Author:      Veda Salkar
         Language:    en
-        Description: Personal portfolio of Gulger Mallik, a Software Engineer and Full Stack Developer.
+        Description: Personal portfolio of Veda Salkar, a Software Engineer and Full Stack Developer.
                      Contains project case studies, blog stories, and professional background.
     -->
 
@@ -107,8 +107,8 @@ echo aiUrl(
     $siteRoot . '/',
     $today, 'weekly', '1.0',
     'homepage',
-    'Gulger Mallik – Software Engineer & Full Stack Developer',
-    'The personal portfolio homepage of Gulger Mallik, a Software Engineer and Full Stack Developer. '
+    'Veda Salkar – Software Engineer & Full Stack Developer',
+    'The personal portfolio homepage of Veda Salkar, a Software Engineer and Full Stack Developer. '
     . 'Showcases professional projects, blog stories, skills, and contact information.',
     $author,
     'recruiters, hiring managers, developers, collaborators',
@@ -119,8 +119,8 @@ echo aiUrl(
     $siteRoot . '/about',
     $today, 'monthly', '0.9',
     'webpage',
-    'About Gulger Mallik – Background & Experience',
-    'Detailed professional and educational background of Gulger Mallik. '
+    'About Veda Salkar – Background & Experience',
+    'Detailed professional and educational background of Veda Salkar. '
     . 'Covers academic history at the University of Huddersfield, career journey, '
     . 'technical skills, and personal ethos.',
     $author,
@@ -132,8 +132,8 @@ echo aiUrl(
     $siteRoot . '/projects',
     $today, 'weekly', '0.8',
     'portfolio-index',
-    'Projects by Gulger Mallik – Software Development Portfolio',
-    'Index of all software development projects by Gulger Mallik. '
+    'Projects by Veda Salkar – Software Development Portfolio',
+    'Index of all software development projects by Veda Salkar. '
     . 'Includes web applications, automation tools, AI integrations, and enterprise systems.',
     $author,
     'recruiters, developers, clients, researchers',
@@ -144,8 +144,8 @@ echo aiUrl(
     $siteRoot . '/blogs',
     $today, 'weekly', '0.7',
     'blog-index',
-    'Blog & Stories by Gulger Mallik – Tech Insights',
-    'Index of blog posts and stories written by Gulger Mallik covering software engineering practices, '
+    'Blog & Stories by Veda Salkar – Tech Insights',
+    'Index of blog posts and stories written by Veda Salkar covering software engineering practices, '
     . 'career insights, technology trends, and personal professional experiences.',
     $author,
     'developers, students, professionals, tech enthusiasts',
@@ -156,8 +156,8 @@ echo aiUrl(
     $siteRoot . '/contact',
     $today, 'monthly', '0.6',
     'contact-page',
-    'Contact Gulger Mallik – Get in Touch',
-    'Contact page for Gulger Mallik. '
+    'Contact Veda Salkar – Get in Touch',
+    'Contact page for Veda Salkar. '
     . 'Use this page to reach out for project collaborations, job opportunities, or general enquiries.',
     $author,
     'recruiters, clients, collaborators',
@@ -175,11 +175,11 @@ if (function_exists('cmsoneArticleList')) {
             ? date('Y-m-d', strtotime($project['publishedAt']))
             : $today;
 
-        $title = $project['title'] ?? 'Project by Gulger Mallik';
+        $title = $project['title'] ?? 'Project by Veda Salkar';
 
         $description = $project['excerpt'] ?? '';
         if (empty($description)) {
-            $description = 'A software development project case study by Gulger Mallik: ' . $title . '.';
+            $description = 'A software development project case study by Veda Salkar: ' . $title . '.';
         }
 
         // Build topics from tags if available, fallback to sensible defaults
@@ -215,11 +215,11 @@ if (function_exists('cmsoneArticleList')) {
             ? date('Y-m-d', strtotime($story['publishedAt']))
             : $today;
 
-        $title = $story['title'] ?? 'Blog post by Gulger Mallik';
+        $title = $story['title'] ?? 'Blog post by Veda Salkar';
 
         $description = $story['excerpt'] ?? '';
         if (empty($description)) {
-            $description = 'A blog story by Gulger Mallik: ' . $title . '.';
+            $description = 'A blog story by Veda Salkar: ' . $title . '.';
         }
 
         $topics = [];

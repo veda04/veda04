@@ -3,9 +3,9 @@
         <div class="flex justify-between items-center">
             <div class="flex items-center gap-2 lg:gap-4">
                 <a href="<?= url('/') ?>">
-                    <!-- <img src="<?= url('assets/images/logo.png') ?>" alt="Veda Salkar"
-                        class="w-10 h-10 sm:w-12 sm:h-12 rounded-full hover:cursor-pointer"> -->
-                        <h1 class="signature text-2xl sm:text-3xl text-black dark:text-white uppercase">Veda Salkar</h1>
+                    <!-- <img src="<//?= url('assets/images/logo.png') ?>" alt="Veda Salkar"
+                    class="w-10 h-10 sm:w-12 sm:h-12 rounded-full hover:cursor-pointer"> -->
+                    <h1 class="signature text-2xl sm:text-3xl text-black dark:text-white uppercase">Veda Salkar</h1>
                 </a>
             </div>
 

@@ -20,11 +20,16 @@ function redirect($url, $session_key='', $session_message = []) {
 }
 
 function url($url, $print=true) {
+    // Remove leading slash from $url to avoid double slashes
+    $url = ltrim($url, '/');
+    // Build the full URL
+    $fullUrl = rtrim(APP_URL, '/') . ($url ? '/' . $url : '');
+    
     if ($print) {
-        echo APP_URL . '/' . $url;
+        echo $fullUrl;
     }
     else {
-        return APP_URL . '/' . $url;
+        return $fullUrl;
     }
 }
 

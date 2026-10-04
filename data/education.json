@@ -1,0 +1,26 @@
+[
+  {
+    "degree": "Bachelor of Computer Engineering",
+    "institution": "Goa University",
+    "location": "Goa, India",
+    "grade": "First Class",
+    "duration": "2015 - 2019",
+    "summary": "Completed a comprehensive curriculum in computer engineering, focusing on software development, algorithms, and hardware design."
+  },
+  {
+    "degree": "MSc Computing (with Advanced Professional Practice)",
+    "institution": "University of Huddersfield",
+    "location": "Huddersfield, UK",
+    "grade": "Distinction",
+    "duration": "2022 - 2024",
+    "summary": "Specialized in advanced computing techniques, including machine learning, data analysis, and software engineering practices."
+  },
+  {
+    "degree": "Doctor of Philosophy (PhD) in Artificial Intelligence",
+    "institution": "University of Huddersfield",
+    "location": "Huddersfield, UK",
+    "grade": null,
+    "duration": "2026 - Present",
+    "summary": "Conducting research in artificial intelligence, focusing on machine learning algorithms and their applications in advanced manufacturing."
+  }
+]

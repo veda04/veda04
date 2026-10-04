@@ -1,0 +1,33 @@
+[
+	{
+		"name": "Cosmokode Ltd",
+    "description": "Founding engineer of AI first product studio. We build AI powered products for businesses and startups.",
+		"image": "/images/showcase/cosmokode.png",
+		"url": "https://cosmokode.com"
+	},
+	{
+		"name": "Fitplanex",
+    "description": "A fitness platform offering personalized workout plans and nutrition guidance.",
+		"image": "/images/showcase/fitplanex.png",
+    "url": "https://www.fitplanex.com/"
+	},
+	{
+		"name": "PSM",
+    "description": "A project management tool for software development teams.",
+		"image": "/images/showcase/psm.png",
+    "url": "https://www.psmworks.com/"
+	},
+	{
+		"name": "Muscle Mind Stories",
+    "description": "A platform sharing inspiring stories of fitness journeys and transformations.",
+		"image": "/images/showcase/musclemindstories.png",
+    "url": "https://www.musclemindstories.com/"
+	},
+	{
+		"name": "University of Huddersfield",
+    "description": "A leading university providing quality education and research opportunities.",
+		"inverted": true,
+		"image": "/images/showcase/universityofhuddersfield.svg",
+		"url": "https://www.hud.ac.uk/"
+	}
+]

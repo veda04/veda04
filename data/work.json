@@ -1,0 +1,71 @@
+[
+	{
+		"company": "University of Huddersfield",
+		"role": "Research Officer",
+		"period": "Mar 2025 - Present",
+		"location": "Huddersfield, UK",
+		"url": "https://www.hud.ac.uk/",
+		"logo": "/images/companies/university-of-huddersfield-logo.jpg",
+		"summary": "Building a multi-tenant, real-time analytics platform for multi-machine monitoring and reviewing anomaly detection methods for multi-sensor industrial data, while designing a configuration-driven, API-integrated architecture that scales cleanly as new machines and sensors come online.",
+		"details": [
+			"Built a multi-tenant, real-time analytics platform enabling custom visualisations and multi-machine monitoring, empowering engineers to make data-driven decisions.",
+			"Conducted an in-depth literature review on anomaly detection methods for multi-sensor industrial data, including temperature, current, and vibration signals.",
+			"Engineered a configuration-driven architecture with secure API integrations to enable rapid onboarding of new machines and sensors, significantly improving system scalability and maintainability.",
+			"Contributed across the full product lifecycle from requirements and prototyping to deployment, collaborating with engineers, researchers, and stakeholders to refine features and usability."
+		]
+	},
+	{
+		"company": "Shop and Bakery Equipment Ltd",
+		"role": "Software Engineer",
+		"period": "May 2024 - Mar 2025",
+		"location": "Halifax, UK",
+		"summary": "Managed and optimised multi-site OpenCart eCommerce platforms, building bespoke UI customisations and scalable PHP/MySQL features to support client workflows.",
+		"details": [
+			"Managed maintenance and optimisation of multi-site OpenCart eCommerce platforms to improve performance and stability.",
+			"Implemented bespoke UI customisations to meet client requirements and support business workflows.",
+			"Developed scalable web features using PHP, MVC patterns, and MySQL, integrating frontend and backend components."
+		]
+	},
+	{
+		"company": "University of Huddersfield",
+		"role": "Research and Development Engineer (Placement)",
+		"period": "Oct 2023 - May 2024",
+		"location": "Huddersfield, UK",
+		"url": "https://www.hud.ac.uk/",
+		"logo": "/images/companies/university-of-huddersfield-logo.jpg",
+		"summary": "Researched advanced 3D reconstruction techniques for converting point-cloud data into CAD models at the Centre for Precision Technologies, and contributed to ATMAS, a workflow and asset-tracking system, across the full proof-of-concept-to-production lifecycle in an Agile environment.",
+		"details": [
+			"Conducted research on advanced 3D reconstruction techniques, evaluating scanning methodologies for converting raw point-cloud data into high-fidelity CAD models.",
+			"Contributed to the development of ATMAS, improving workflow efficiency, reducing errors, and enhancing asset-tracking accuracy while ensuring cross-browser accessibility.",
+			"Supported the full development lifecycle from proof-of-concept to production within an Agile, iterative environment."
+		]
+	},
+	{
+		"company": "Trellissoft Inc.",
+		"role": "Frontend Developer",
+		"period": "Apr 2022 - Aug 2022",
+		"location": "Goa, India",
+		"url": "https://www.trellissoft.com/",
+		"logo": "/images/companies/trellissoft-logo.jpg",
+		"summary": "Developed AngularJS applications supporting core business processes, while providing code reviews and technical guidance to support team productivity.",
+		"details": [
+			"Developed AngularJS applications to support business processes and enhance user experience.",
+			"Provided technical guidance and code reviews to support team productivity.",
+			"Promoted collaborative development practices and shared best-practice approaches."
+		]
+	},
+	{
+		"company": "Teaminertia Technologies",
+		"role": "Frontend Developer",
+		"period": "Oct 2019 - Mar 2022",
+		"location": "Goa, India",
+		"url": "https://www.teaminertia.com/",
+		"logo": "/images/companies/team-inertia-technologies-logo.jpg",
+		"summary": "Built and maintained web interfaces using HTML5, CSS, JavaScript, Bootstrap, and WordPress CMS, translating stakeholder requirements into user-focused UI specifications while supporting client relationships.",
+		"details": [
+			"Built and maintained web interfaces using HTML5, CSS, JavaScript, Bootstrap, and WordPress CMS.",
+			"Translated stakeholder requirements into user-focused UI specifications.",
+			"Provided client support and maintained strong communication to support ongoing relationships."
+		]
+	}
+]

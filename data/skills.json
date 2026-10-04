@@ -1,0 +1,52 @@
+[
+	{
+		"category": "Research and AI",
+		"skills": [
+			"Machine Learning",
+			"Deep Learning",
+			"Anomaly Detection",
+			"Multi-Sensor Data Analysis",
+			"Data Visualisation",
+			"Predictive Modelling",
+			"Literature Review",
+			"Academic Writing"
+		]
+	},
+	{
+		"category": "Software Development",
+		"skills": [
+			"Python",
+			"Django",
+			"React",
+			"JavaScript",
+			"AngularJS",
+			"PHP",
+			"HTML5",
+			"CSS",
+			"MySQL",
+			"REST APIs",
+			"MVC Architecture",
+			"Object-Oriented Programming"
+		]
+	},
+	{
+		"category": "Tools and Platforms",
+		"skills": [
+			"Git",
+			"Agile Development",
+			"Technical Documentation",
+			"CI/CD"
+		]
+	},
+	{
+		"category": "Soft Skills",
+		"skills": [
+			"Research Communication",
+			"Stakeholder Collaboration",
+			"Cross-functional Teamwork",
+			"Problem Solving",
+			"Independent Working",
+			"Academic Presentation"
+		]
+	}
+]

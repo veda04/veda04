@@ -36,7 +36,7 @@ export default function Home() {
           <span aria-hidden="true" className="mt-6 h-px w-10 bg-border" />
 
           <p className="mt-6 max-w-2xl text-sm text-muted-foreground sm:text-base">
-            I am a passionate researcher and engineer, dedeicated to advancing the field of AI in manufacturing
+            I am a passionate researcher and engineer, dedicated to advancing the field of AI in manufacturing
             and solving data visualisation challenges.
           </p>
 

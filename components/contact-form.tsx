@@ -157,25 +157,29 @@ export default function ContactForm({ defaultService }: { defaultService?: strin
           <label htmlFor="contact-service" className="sr-only">
             Service
           </label>
-          <select
-            id="contact-service"
-            name="service"
-            required
-            value={service}
-            onChange={(event) => setService(event.target.value)}
-            className="border-b-2 border-border bg-transparent px-1 pb-1 text-foreground focus:border-accent focus:outline-none"
-          >
-            <option value="" disabled>
-              choose one
-            </option>
-            {SERVICE_OPTIONS.map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
+          {/* Wrapped so the full stop sits flush against the select instead of taking a flex gap. */}
+          <span className="inline-flex items-baseline">
+            <select
+              id="contact-service"
+              name="service"
+              required
+              value={service}
+              onChange={(event) => setService(event.target.value)}
+              className="border-b-2 border-border bg-transparent px-1 pb-1 text-foreground focus:border-accent focus:outline-none"
+            >
+              <option value="" disabled>
+                choose one
               </option>
-            ))}
-          </select>
+              {SERVICE_OPTIONS.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+            <span>.</span>
+          </span>
 
-          <span>. You can reach me at</span>
+          <span>You can reach me at</span>
           <label htmlFor="contact-email" className="sr-only">
             Your email
           </label>
@@ -222,7 +226,7 @@ export default function ContactForm({ defaultService }: { defaultService?: strin
             disabled={status === "submitting"}
             className="inline-flex items-center gap-2 rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
           >
-            {status === "submitting" ? "Sending..." : "Send message"}
+            {status === "submitting" ? "Sending…" : "Send message"}
             <HugeiconsIcon icon={ArrowUpRight01Icon} className="h-4 w-4" aria-hidden="true" />
           </button>
 

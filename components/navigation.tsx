@@ -16,7 +16,7 @@ const NAV_LINKS = [
   { label: "About Me", href: ROUTES.about },
   { label: "Work", href: ROUTES.work },
   { label: "Research", href: ROUTES.publications },
-  { label: "Resume", href: ROUTES.resume },
+  { label: "CV", href: ROUTES.resume },
   { label: "Blog", href: ROUTES.blogs },
   { label: "Contact", href: ROUTES.contact },
 ];

@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Detection and Classification of Brain Tumor using Naïve Bayes and J48 Algorithm",
-		"abstract": "This paper presents a comparative study of Naïve Bayes and J48 decision tree algorithms applied to the detection and classification of brain tumors from medical imaging data. The work evaluates the effectiveness of both algorithms in supporting diagnostic decision-making, providing a foundation for further research into machine learning-assisted medical diagnosis.",
+		"abstract": "This paper presents a comparative study of Naïve Bayes and J48 decision tree algorithms applied to the detection and classification of brain tumours from medical imaging data. The work evaluates the effectiveness of both algorithms in supporting diagnostic decision-making, providing a foundation for further research into machine learning-assisted medical diagnosis.",
 		"image": null,
 		"doi": null,
 		"status": "Published",
@@ -13,12 +13,12 @@
 		"abstract": "This paper presents DASH, a multi-tenant real-time visualisation and monitoring platform for intelligent asset management of heterogeneous precision manufacturing equipment. The platform is built on a configuration-driven architecture with secure API integrations that enable rapid onboarding of new machines and sensors, and supports anomaly detection across multi-sensor industrial data such as temperature, current, and vibration signals to help engineers make data-driven decisions.",
 		"image": null,
 		"doi": null,
-		"status": "In draft",
+		"status": "Accepted for Publication",
 		"domains": ["Real-Time Systems", "Asset Management", "Precision Manufacturing"]
 	},
 	{
 		"title": "ATMAS: Design, Implementation, and Evaluation of an Automated Test Management and Asset Scheduling System for a University Research Engineering Laboratory",
-		"abstract": "This paper presents the design, implementation, and evaluation of ATMAS, an automated platform for test management and asset scheduling developed for a university research engineering laboratory. ATMAS replaces spreadsheet-driven workflows with a traceable, operationally efficient system, improving workflow efficiency, reducing errors, and enhancing asset-tracking accuracy while ensuring cross-browser accessibility.",
+		"abstract": "This paper presents the design, implementation, and evaluation of ATMAS, an automated platform for test management and asset scheduling developed for a university research engineering laboratory. ATMAS replaces spreadsheet-driven workflows with a traceable, centralised system, improving workflow efficiency, reducing errors, and enhancing asset-tracking accuracy while ensuring cross-browser accessibility.",
 		"image": null,
 		"doi": null,
 		"status": "In draft",

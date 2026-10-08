@@ -40,7 +40,7 @@ export default async function ContactPage({ searchParams }: Props) {
       </div>
 
       <div className="relative z-10 mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-        <PageHeader kicker="Get In Touch" title="Let's Get Started" description={DESCRIPTION} />
+        <PageHeader kicker="Get in Touch" title="Let's Get Started" description={DESCRIPTION} />
 
         <div className="mt-12 rounded-2xl border border-border bg-background-secondary p-6 sm:mt-16 sm:p-10 lg:p-12">
           <ContactForm defaultService={type} />

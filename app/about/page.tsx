@@ -33,7 +33,7 @@ const CORE_TOOLS = [
   { label: "React", icon: ReactIcon },
   { label: "JavaScript", icon: JavaScriptIcon },
   { label: "GitHub", icon: GithubIcon },
-  { label: "Typescript", icon: TypescriptIcon },
+  { label: "TypeScript", icon: TypescriptIcon },
 ] as const;
 
 const EXPERIENCE_YEARS = `${new Date().getFullYear() - CAREER_START_YEAR}+`;
@@ -92,16 +92,16 @@ export default function AboutPage() {
 
               <div className="mt-5 space-y-4 text-sm text-muted-foreground sm:text-base">
                 <p>
-                  I&apos;m a researcher and engineer with {" "}
+                  I&apos;m a researcher and engineer with{" "}
                   {EXPERIENCE_YEARS} years of experience, focused on
                   turning AI research and full-stack systems into products that ship, scale, and
-                  publish. As Co-founder of Cosmokode Ltd and a Research Officer at the University
+                  publish. As co-founder of Cosmokode Ltd and a Research Officer at the University
                   of Huddersfield, I move between applied research and production engineering.
                 </p>
                 <p>
                   Born and raised in Goa, India, and now based in {LOCATION.locality},{" "}
                   {LOCATION.countryLabel}. When I&apos;m not deep in a model or a codebase,
-                  you&apos;ll find me exploring data visualisation side-projects or reading up on
+                  you&apos;ll find me exploring data visualisation side projects or reading up on
                   the latest in manufacturing AI.
                 </p>
               </div>

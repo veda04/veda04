@@ -7,10 +7,18 @@ import { buildProfileVCard } from "@/lib/vcard";
 import { FlipAvatar } from "@/components/flip-avatar";
 import Kicker from "@/components/kicker";
 
+// Drafts are listed on /publications but don't count as published work.
+const PUBLISHED_COUNT = publications.filter(
+  (publication) => publication.status.toLowerCase() === "published",
+).length;
+
 const STATS = [
   { value: `${String(new Date().getFullYear() - CAREER_START_YEAR).padStart(2, "0")}+`, label: "Years of Experience" },
   { value: "15+", label: "Projects Delivered" },
-  { value: `${String(publications.length).padStart(2, "0")}+`, label: "Academic Publications" },
+  {
+    value: String(PUBLISHED_COUNT).padStart(2, "0"),
+    label: PUBLISHED_COUNT === 1 ? "Academic Publication" : "Academic Publications",
+  },
 ] as const;
 
 const VCARD = buildProfileVCard();
@@ -28,7 +36,7 @@ export default function AboutImpact() {
             <p className="max-w-xl text-sm text-muted-foreground sm:text-base">
               I lead where applied research meets product engineering, turning AI research,
               predictive maintenance, and full-stack systems into outcomes that ship, scale,
-              and publish. As Co-founder of {" "}
+              and publish. As co-founder of{" "}
               <Link
                 href={EXTERNAL_LINKS.cosmokode}
                 target="_blank"
@@ -36,8 +44,8 @@ export default function AboutImpact() {
                 className="font-semibold text-accent transition-colors hover:text-accent/80"
               >
                 Cosmokode Ltd
-              </Link> {" "}
-              and a Research Officer at the {" "}
+              </Link>{" "}
+              and a Research Affiliate at the{" "}
               <Link
                 href={PROFILE.affiliationUrl}
                 target="_blank"

@@ -1,14 +1,14 @@
-import { NAME_VARIANTS, PROFILE, ROUTES, SITE } from "@/app/constants";
+import { CAREER_START_YEAR, NAME_VARIANTS, PROFILE, ROUTES, SITE } from "@/app/constants";
 
 export async function GET() {
   const content = [
     `# ${SITE.ownerName}`,
     "",
-    "Portfolio, research profile, resume, work experience, publications, and blog articles for Veda Salkar.",
+    "Portfolio, research profile, CV, work experience, publications, and blog articles for Veda Salkar.",
     "",
     "## Identity",
-    `Veda Salkar is a software engineer and Research Officer at the University of Huddersfield, based in Huddersfield, United Kingdom, with 6+ years of experience in full-stack and research-focused software development.`,
-    `The name is sometimes misspelled as ${NAME_VARIANTS.filter((v) => v !== SITE.ownerName).join(", ")}; all refer to the same person, who also goes by veda04 online.`,
+    `Veda Salkar is a software engineer and Research Officer at the University of Huddersfield, based in Huddersfield, United Kingdom, with ${new Date().getFullYear() - CAREER_START_YEAR}+ years of experience in full-stack and research-focused software development.`,
+    `The name also appears as ${NAME_VARIANTS.filter((v) => v !== SITE.ownerName).join(", ")}; all refer to the same person, who also goes by veda04 online.`,
     "",
     "## Key pages",
     `${PROFILE.websiteUrl}`,
@@ -20,7 +20,7 @@ export async function GET() {
     `${PROFILE.websiteUrl}${ROUTES.contact}`,
     "",
     "## Topics",
-    "Veda Salkar, veda04, software engineering, full-stack development, applied AI, multi-sensor data analytics, data visualisation, machine learning, predictive maintenance, research, portfolio, resume, projects, publications, and blog posts.",
+    "Veda Salkar, veda04, software engineering, full-stack development, applied AI, multi-sensor data analytics, data visualisation, machine learning, predictive maintenance, research, portfolio, CV, projects, publications, and blog posts.",
     "",
     "## Contact",
     PROFILE.primaryEmail,

@@ -168,7 +168,7 @@ export default function ArticlePage({ article, assets, basePath, sectionLabel }:
               <div className="flex flex-col gap-8">
                 <div>
                   <p className="text-xs font-semibold tracking-[0.2em] text-foreground uppercase">
-                    Share this Article
+                    Share this article
                   </p>
                   <div className="mt-4 flex items-center gap-3">
                     <IconCircleLink
@@ -193,7 +193,7 @@ export default function ArticlePage({ article, assets, basePath, sectionLabel }:
                 {hasToc ? (
                   <div className="rounded-xl border border-border bg-surface p-5">
                     <p className="text-xs font-semibold tracking-[0.2em] text-foreground uppercase">
-                      In this Article
+                      In this article
                     </p>
                     <div className="mt-4">
                       <ArticleTocNav items={article.parsedContent.toc} />

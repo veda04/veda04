@@ -1,20 +1,38 @@
 [
   {
     "badge": "SU",
-    "title": "Accountability Panelist",
+    "title": "PGR Representative",
+    "description": "",
+    "date": "2026 - Present"
+  },
+  {
+    "badge": "SU",
+    "title": "Student Advisory Council Member",
+    "description": "",
+    "date": "2026 - Present"
+  },
+  {
+    "badge": "SU",
+    "title": "Student Ambassador",
+    "description": "",
+    "date": "2026 - Present"
+  },
+  {
+    "badge": "SU",
+    "title": "Accountability Panellist",
     "description": "Evaluated and ensured the performance of student union officers aligned with student welfare objectives, demonstrating a commitment to inclusivity and community engagement.",
-    "date": "2023 - 2024"
+    "date": "2023–2024"
   },
   {
     "badge": "UoH",
     "title": "Academic Representative, MSc Computing",
     "description": "Acted as a liaison between students and faculty, enhancing communication and promoting a positive learning environment.",
-    "date": "2022 - 2023"
+    "date": "2022–2023"
   },
   {
     "badge": "IET",
     "title": "Hospitality Committee Member, IET Chapter",
-    "description": "Took charge of organizing team meetings for juniors and cross-stream students, showcasing leadership in educational event planning, and fostering collaboration among participants.",
-    "date": "2017 - 2018"
+    "description": "Took charge of organising team meetings for juniors and cross-stream students, showcasing leadership in educational event planning and fostering collaboration among participants.",
+    "date": "2017–2018"
   }
 ]

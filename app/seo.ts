@@ -13,7 +13,7 @@ export const DEFAULT_OG_IMAGE_ALT = `${SITE.ownerName} portfolio, research, and 
 export const BING_VERIFICATION_CODE = "3989949e145e411b93e36a225b7a6603";
 
 export const SITE_DESCRIPTION =
-  "Portfolio of Veda Salkar (veda04), a researcher at the University of Huddersfield and founding software engineer at Cosmokode Ltd, with projects, publications, experience, a resume, and a blog focused on applied AI in manufacturing, data visualisation, and full-stack software engineering.";
+  "Portfolio of Veda Salkar (veda04), a researcher at the University of Huddersfield and co-founder of Cosmokode Ltd, with projects, publications, experience, a CV, and a blog focused on applied AI in manufacturing, data visualisation, and full-stack software engineering.";
 
 export const SITE_KEYWORDS = [
   ...NAME_VARIANTS,
@@ -207,14 +207,14 @@ export function buildPersonJsonLd(): JsonLdValue {
     familyName: "Salkar",
     alternateName: [SITE.brandName, ...NAME_VARIANTS],
     description:
-      "Veda Salkar is an AI researcher at the University of Huddersfield and founding software engineer at Cosmokode Ltd, working on applied AI in manufacturing, predictive maintenance, and data visualisation.",
+      "Veda Salkar is an AI researcher at the University of Huddersfield and co-founder of Cosmokode Ltd, working on applied AI in manufacturing, predictive maintenance, and data visualisation.",
     disambiguatingDescription:
       "AI researcher and software engineer based in Huddersfield, United Kingdom, also known online as veda04.",
     url: PROFILE.websiteUrl,
-    image: absoluteUrl("/images/gulger-mallik@1x1.png"),
+    image: absoluteUrl("/images/hero_image.png"),
     email: `mailto:${PROFILE.primaryEmail}`,
     sameAs: PERSON_SAME_AS,
-    jobTitle: ["AI Researcher", "Software Engineer", "Founder and Director"],
+    jobTitle: ["AI Researcher", "Software Engineer", "Co-founder and Director"],
     homeLocation: {
       "@type": "Place",
       name: `${LOCATION.locality}, ${LOCATION.countryLabel}`,

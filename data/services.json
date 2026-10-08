@@ -1,7 +1,7 @@
 [
   {
     "name": "UI/UX Consulting",
-    "description": "Practical, usability-first UI/UX guidance - refining interfaces, workflows, and bespoke customisations to fit real business needs.",
+    "description": "Practical, usability-first UI/UX guidance – refining interfaces, workflows, and bespoke customisations to fit real business needs.",
     "image": "/images/services/ui-ux-consulting.png",
     "icon": "consulting",
     "text": "Book a Consultation",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Website Development",
-    "description": "Full-stack website builds and enhancements - from eCommerce platforms to custom web applications, using PHP, React, and modern JavaScript.",
+    "description": "Full-stack website builds and enhancements – from e-commerce platforms to custom web applications, using PHP, React, and modern JavaScript.",
     "image": "/images/services/website-development.png",
     "icon": "software-development",
     "text": "Request a Quote",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Data Visualisation & Analysis",
-    "description": "Turning multi-sensor and industrial data into clear, actionable insight - through data visualisation, anomaly detection, and predictive modelling.",
+    "description": "Turning multi-sensor and industrial data into clear, actionable insight – through data visualisation, anomaly detection, and predictive modelling.",
     "image": "/images/services/data-visualisation-analysis.png",
     "icon": "rnd",
     "text": "Request a Quote",

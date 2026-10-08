@@ -7,7 +7,7 @@ import { PROFILE } from "@/app/constants";
 
 function handlePrint() {
   const originalTitle = document.title;
-  document.title = `${PROFILE.name} Resume`;
+  document.title = `${PROFILE.name} CV`;
 
   const restoreTitle = () => {
     document.title = originalTitle;

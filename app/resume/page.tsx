@@ -18,13 +18,13 @@ import PrintResumeButton from "@/components/print-resume-button";
 const RESUME_DESCRIPTION = "Education, skills, and work experience for Veda Salkar.";
 
 export const metadata: Metadata = createPageMetadata({
-  title: "Resume",
+  title: "CV",
   description: RESUME_DESCRIPTION,
   path: ROUTES.resume,
 });
 
 const resumeJsonLd = buildWebPageJsonLd({
-  title: `${PROFILE.name} — Resume`,
+  title: `${PROFILE.name} — CV`,
   description: RESUME_DESCRIPTION,
   path: ROUTES.resume,
 });
@@ -131,7 +131,7 @@ export default function ResumePage() {
 
             <div>
               <h2 className="text-sm font-bold tracking-[0.2em] text-foreground uppercase">
-                Awards
+                Positions of Responsibility
               </h2>
               <div className="mt-4 flex flex-col gap-5">
                 {achievements.map((award) => (
@@ -152,7 +152,7 @@ export default function ResumePage() {
               <p className="mt-4 text-sm leading-relaxed text-muted-foreground sm:text-base">
                 Researcher and engineer with {new Date().getFullYear() - CAREER_START_YEAR}+ years of
                 experience, working across AI research, predictive maintenance, and full-stack
-                software. Co-founder of Cosmokode Ltd and a Research Officer at the University of
+                software. Co-founder of Cosmokode Ltd and Research Officer at the University of
                 Huddersfield, moving comfortably between applied research and production
                 engineering.
               </p>

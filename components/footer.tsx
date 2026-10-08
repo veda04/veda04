@@ -13,7 +13,7 @@ const CONTACT_ITEMS = [
     icon: MailAtSign01Icon,
   },
   {
-    label: "ORCiD",
+    label: "ORCID",
     value: PROFILE.orcidLabel,
     href: PROFILE.orcidUrl,
     icon: IdCardLanyardIcon,
